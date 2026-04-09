@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Updates — Jack Clark · A Purpose Driven Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .blog-post-content { font-size: 15px; line-height: 1.85; color: #4a4a45; margin-top: 12px; }
+    .blog-post-content ul { margin: 12px 0 12px 20px; }
+    .blog-post-content li { margin-bottom: 6px; }
+    .blog-post-content p { margin-bottom: 14px; }
+    .back-link {
+      display: inline-block; margin: 0 0 32px;
+      font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
+      color: #7a7a70; text-decoration: none;
+      border-bottom: 1px solid rgba(0,0,0,0.09); padding-bottom: 2px;
+    }
+    .back-link:hover { color: #1c1c1c; }
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo"><a href="index.html" style="text-decoration:none;color:inherit;">Jack Clark <span>· Mission</span></a></div>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="blog.html">Updates</a>
+        <a href="index.html#gallery">Gallery</a>
+      </div>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="btn-nav">Give Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="index.html#about" onclick="closeMobile()">About</a>
+      <a href="index.html#mission" onclick="closeMobile()">Mission</a>
+      <a href="blog.html" onclick="closeMobile()">Updates</a>
+      <a href="index.html#gallery" onclick="closeMobile()">Gallery</a>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="mobile-give">Give Now</a>
+    </div>
+  </nav>
+
+  <div class="blog-hero">
+    <h1>Updates & Prayer Requests</h1>
+    <p>Follow the journey · Pray along the way</p>
+  </div>
+
+  <div class="blog-list">
+    <a href="index.html" class="back-link">← Back to home</a>
+    <div id="blogList">
+      <!-- Posts rendered by js/posts.js -->
+    </div>
+  </div>
+
+  <section class="donate-section" style="padding: 64px 32px;">
+    <div class="donate-texture"></div>
+    <div class="donate-content">
+      <div class="donate-eyebrow">Partner with me</div>
+      <h2 class="donate-heading" style="font-size:28px;">Ready to give?</h2>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="btn-donate">Give Now →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Jack Clark · A Purpose Driven Life</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="blog.html">Updates</a>
+        <a href="mailto:jack30clark@gmail.com">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Jack Clark · Sent by Freedom House International</span>
+        <a href="mailto:jack30clark@gmail.com">jack30clark@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
