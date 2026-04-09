@@ -8,10 +8,10 @@
   --forest:    #1a2a1a;
   --forest-mid:#243424;
   --gold:      #c8a96e;
-  --gold-soft: rgba(200,169,110,0.7);
+  --gold-soft: rgba(200,169,110,0.90);
   --gold-pale: rgba(200,169,110,0.15);
   --cream:     #f5f0e4;
-  --cream-dim: rgba(245,240,228,0.55);
+  --cream-dim: rgba(245,240,228,0.82);
   --ink:       #1c1c1c;
   --ink-soft:  #4a4a45;
   --ink-muted: #7a7a70;
@@ -214,6 +214,32 @@ body {
   margin-bottom: 16px;
 }
 .about-text p:last-of-type { margin-bottom: 24px; }
+.story-section-title {
+  font-family: var(--serif); font-size: 13px; font-weight: 600;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--ink); margin-bottom: 10px;
+}
+.story-divider {
+  width: 36px; height: 1px; background: var(--gold-soft);
+  margin: 24px 0;
+}
+.story-more {
+  display: none;
+  overflow: hidden;
+}
+.story-more.open { display: block; }
+.read-more-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  margin: 20px 0 24px;
+  background: none; border: none; cursor: pointer;
+  font-family: var(--sans); font-size: 11px; letter-spacing: 1.8px;
+  text-transform: uppercase; color: var(--ink-soft);
+  border-bottom: 1px solid var(--border); padding-bottom: 2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.read-more-btn:hover { color: var(--ink); border-color: var(--ink); }
+.read-more-arrow { transition: transform 0.3s; display: inline-block; }
+.read-more-btn.open .read-more-arrow { transform: rotate(180deg); }
 .about-contact { margin-top: 8px; }
 .about-email {
   font-size: 13px; letter-spacing: 0.3px;

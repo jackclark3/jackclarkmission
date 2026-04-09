@@ -67,6 +67,18 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
 
+// Read More toggle for story
+function toggleStory() {
+  const more = document.getElementById('storyMore');
+  const btn = document.getElementById('readMoreBtn');
+  if (!more || !btn) return;
+  const isOpen = more.classList.toggle('open');
+  btn.classList.toggle('open', isOpen);
+  btn.innerHTML = isOpen
+    ? 'Read Less <span class="read-more-arrow" style="display:inline-block;transform:rotate(180deg)">&#8595;</span>'
+    : 'Read More <span class="read-more-arrow">&#8595;</span>';
+}
+
 // Smooth scroll for nav links
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', (e) => {
