@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Updates — Jack Clark · Mission</title>
+  <meta name="description" content="Field updates from Jack Clark with Freedom House International." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:11px;">
+          <img src="images/fhi_logo.svg" alt="Freedom House International" class="nav-fhi-logo" />
+          <div class="nav-logo-text">
+            <div class="nav-logo-name">Jack Clark</div>
+            <div class="nav-logo-org">Freedom House International</div>
+          </div>
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="story.html">About</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="updates.html" class="nav-active">Updates</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="btn-nav">Give Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="story.html" onclick="closeMobile()">About</a>
+      <a href="index.html#mission" onclick="closeMobile()">Mission</a>
+      <a href="updates.html" onclick="closeMobile()">Updates</a>
+      <a href="gallery.html" onclick="closeMobile()">Gallery</a>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="mobile-give">Give Now</a>
+    </div>
+  </nav>
+
+  <div class="subpage-header-dark">
+    <div class="subpage-header-cross" aria-hidden="true">
+      <svg viewBox="0 0 600 900" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="rw-updates" x="-20%" y="-5%" width="140%" height="110%" color-interpolation-filters="sRGB">
+            <feTurbulence type="turbulence" baseFrequency="0.035" numOctaves="4" seed="9" result="edgeNoise"/>
+            <feDisplacementMap in="SourceGraphic" in2="edgeNoise" scale="11" xChannelSelector="R" yChannelSelector="G" result="roughShape"/>
+            <feTurbulence type="fractalNoise" baseFrequency="0.018 0.22" numOctaves="6" seed="31" result="grain"/>
+            <feComposite in="grain" in2="roughShape" operator="in" result="grainMask"/>
+            <feColorMatrix in="grainMask" type="matrix" values="0.4 0 0 0 0.1 0 0.28 0 0 0.08 0 0 0.1 0 0.02 0 0 0 0.55 0" result="tintedGrain"/>
+            <feBlend in="roughShape" in2="tintedGrain" mode="overlay"/>
+          </filter>
+        </defs>
+        <rect x="275" y="0" width="50" height="900" fill="#c8a96e" filter="url(#rw-updates)"/>
+        <rect x="65"  y="310" width="470" height="50" fill="#c8a96e" filter="url(#rw-updates)"/>
+      </svg>
+    </div>
+    <div class="subpage-header-inner">
+      <a href="index.html" class="subpage-back subpage-back--light">← Back</a>
+      <h1 class="subpage-header-title">Updates</h1>
+      <p class="subpage-header-sub">What God is doing.</p>
+    </div>
+  </div>
+
+  <div class="updates-page-wrap">
+    <p class="updates-page-intro reveal">Updates from the field: what I'm learning, where I'm going, and how to pray.</p>
+    <div id="blogList">
+      <!-- Posts rendered by js/posts.js (newest first) -->
+    </div>
+  </div>
+
+  <section class="donate-section" style="padding: 64px 32px;">
+    <div class="donate-texture"></div>
+    <div class="donate-content">
+      <div class="donate-eyebrow">Partner with me</div>
+      <h2 class="donate-heading" style="font-size:28px;">Ready to give?</h2>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="btn-donate">Give Now →</a>
+    </div>
+  </section>
+
+  <!-- POST OVERLAY -->
+  <div class="post-overlay" id="postOverlay">
+    <div class="post-overlay-header">
+      <button class="post-overlay-close" onclick="closePost()">← Back to Updates</button>
+      <div class="post-overlay-meta">
+        <div class="post-overlay-date" id="postOverlayDate"></div>
+        <div class="post-overlay-title" id="postOverlayTitle"></div>
+      </div>
+    </div>
+    <div class="post-overlay-body" id="postOverlayBody"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Jack Clark · Mission</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="story.html">About</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="updates.html">Updates</a>
+        <a href="mailto:jack30clark@gmail.com">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jack Clark · Sent by Freedom House International</span>
+        <a href="mailto:jack30clark@gmail.com">jack30clark@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function openPost(id) {
+      var post = posts.find(function(p) { return p.id === id; });
+      if (!post) return;
+      document.getElementById('postOverlayDate').textContent = post.date;
+      document.getElementById('postOverlayTitle').textContent = post.title;
+      document.getElementById('postOverlayBody').innerHTML = post.content;
+      var overlay = document.getElementById('postOverlay');
+      overlay.classList.add('open');
+      overlay.scrollTop = 0;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePost() {
+      document.getElementById('postOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') closePost();
+    });
+  </script>
+</body>
+</html>

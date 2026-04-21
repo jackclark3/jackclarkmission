@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Jack Clark · Mission</title>
+  <meta name="description" content="Photos from Jack Clark's mission work with Freedom House International." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <a href="index.html" style="text-decoration:none;display:flex;align-items:center;gap:11px;">
+          <img src="images/fhi_logo.svg" alt="Freedom House International" class="nav-fhi-logo" />
+          <div class="nav-logo-text">
+            <div class="nav-logo-name">Jack Clark</div>
+            <div class="nav-logo-org">Freedom House International</div>
+          </div>
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="story.html">About</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="updates.html">Updates</a>
+        <a href="gallery.html" class="nav-active">Gallery</a>
+      </div>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="btn-nav">Give Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="story.html" onclick="closeMobile()">About</a>
+      <a href="index.html#mission" onclick="closeMobile()">Mission</a>
+      <a href="updates.html" onclick="closeMobile()">Updates</a>
+      <a href="gallery.html" onclick="closeMobile()">Gallery</a>
+      <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="mobile-give">Give Now</a>
+    </div>
+  </nav>
+
+  <div class="subpage-header-dark">
+    <div class="subpage-header-cross" aria-hidden="true">
+      <svg viewBox="0 0 600 900" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="rw-gallery" x="-20%" y="-5%" width="140%" height="110%" color-interpolation-filters="sRGB">
+            <feTurbulence type="turbulence" baseFrequency="0.035" numOctaves="4" seed="9" result="edgeNoise"/>
+            <feDisplacementMap in="SourceGraphic" in2="edgeNoise" scale="11" xChannelSelector="R" yChannelSelector="G" result="roughShape"/>
+            <feTurbulence type="fractalNoise" baseFrequency="0.018 0.22" numOctaves="6" seed="31" result="grain"/>
+            <feComposite in="grain" in2="roughShape" operator="in" result="grainMask"/>
+            <feColorMatrix in="grainMask" type="matrix" values="0.4 0 0 0 0.1 0 0.28 0 0 0.08 0 0 0.1 0 0.02 0 0 0 0.55 0" result="tintedGrain"/>
+            <feBlend in="roughShape" in2="tintedGrain" mode="overlay"/>
+          </filter>
+        </defs>
+        <rect x="275" y="0" width="50" height="900" fill="#c8a96e" filter="url(#rw-gallery)"/>
+        <rect x="65"  y="310" width="470" height="50" fill="#c8a96e" filter="url(#rw-gallery)"/>
+      </svg>
+    </div>
+    <div class="subpage-header-inner">
+      <a href="index.html" class="subpage-back subpage-back--light">← Back</a>
+      <h1 class="subpage-header-title">Gallery</h1>
+      <p class="subpage-header-sub">A glimpse into the work.</p>
+    </div>
+  </div>
+
+  <!-- FOLDER GRID -->
+  <div class="gallery-page-wrap">
+    <p class="gallery-page-intro reveal">Select a season to view photos. Click any photo to enlarge.</p>
+    <div class="gallery-folder-grid" id="folderGrid">
+      <!-- Rendered by JS below -->
+    </div>
+  </div>
+
+  <!-- FOLDER OVERLAY -->
+  <div class="folder-overlay" id="folderOverlay">
+    <div class="folder-overlay-header">
+      <button class="folder-overlay-close" onclick="closeFolder()">← Back to Gallery</button>
+      <div class="folder-overlay-title" id="folderOverlayTitle"></div>
+      <div class="folder-overlay-count" id="folderOverlayCount"></div>
+    </div>
+    <div class="folder-overlay-body">
+      <div id="folderOverlayPhotos"></div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-close">✕</div>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">Jack Clark · Mission</div>
+      <div class="footer-links">
+        <a href="story.html">About</a>
+        <a href="index.html#mission">Mission</a>
+        <a href="updates.html">Updates</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="mailto:jack30clark@gmail.com">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Jack Clark · Sent by Freedom House International</span>
+        <a href="mailto:jack30clark@gmail.com">jack30clark@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/gallery.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function renderFolderGrid() {
+      var grid = document.getElementById('folderGrid');
+      if (!grid || !gallerySections) return;
+      grid.innerHTML = gallerySections.map(function(section, idx) {
+        var cover = encodeURI(section.photos[0].src);
+        var count = section.photos.length;
+        return '<div class="gallery-folder-card" onclick="openFolder(' + idx + ')">' +
+          '<img src="' + cover + '" alt="' + section.season + '" loading="lazy" />' +
+          '<div class="gallery-folder-gradient"></div>' +
+          '<div class="gallery-folder-count">' + count + ' photos</div>' +
+          '<div class="gallery-folder-label">' + section.season + '</div>' +
+          '</div>';
+      }).join('');
+    }
+
+    function openFolder(idx) {
+      var section = gallerySections[idx];
+      var overlay = document.getElementById('folderOverlay');
+      var titleEl = document.getElementById('folderOverlayTitle');
+      var countEl = document.getElementById('folderOverlayCount');
+      var photosEl = document.getElementById('folderOverlayPhotos');
+
+      titleEl.textContent = section.season;
+      countEl.textContent = section.photos.length + ' photos';
+      photosEl.innerHTML = '<div class="gallery-grid">' +
+        section.photos.map(function(photo, i) {
+          var classes = ['gallery-item'];
+          if (photo.wide) classes.push('wide');
+          if (photo.tall) classes.push('tall');
+          var srcEncoded = encodeURI(photo.src);
+          var altEsc = (photo.alt || 'Gallery photo').replace(/'/g, '&#39;');
+          return '<div class="' + classes.join(' ') + '" onclick="openLightbox(\'' + srcEncoded + '\', \'' + altEsc + '\')">' +
+            '<img src="' + srcEncoded + '" alt="' + (photo.alt || 'Gallery photo') + '" loading="lazy" /></div>';
+        }).join('') + '</div>';
+
+      overlay.classList.add('open');
+      overlay.scrollTop = 0;
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeFolder() {
+      var overlay = document.getElementById('folderOverlay');
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    renderFolderGrid();
+  </script>
+</body>
+</html>

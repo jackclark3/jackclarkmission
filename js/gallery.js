@@ -10,7 +10,8 @@ const gallerySections = [
   {
     season: "Zambia 2024",
     photos: [
-      { src: "images/Photo Gallery/Zambia 2024/_DSF3531_Original.JPG",   alt: "Zambia 2024", wide: true, tall: true },
+      { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5537_Original.JPG", alt: "Nsansa Orphanage Boys Ministry", wide: true, tall: true },
+      { src: "images/Photo Gallery/Zambia 2024/_DSF3531_Original.JPG",   alt: "Zambia 2024" },
       { src: "images/Photo Gallery/Zambia 2024/_DSF3994_Original.JPG",   alt: "Zambia 2024" },
       { src: "images/Photo Gallery/Zambia 2024/_DSF4079_Original.JPG",   alt: "Zambia 2024", tall: true },
       { src: "images/Photo Gallery/Zambia 2024/_DSF4300_Original.JPG",   alt: "Zambia 2024" },
@@ -20,7 +21,6 @@ const gallerySections = [
       { src: "images/Photo Gallery/Zambia 2024/_DSF5454_Original.JPG",   alt: "Zambia 2024" },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5537_Original.JPG", alt: "Nsansa Orphanage Boys Ministry", wide: true },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5554_Original.JPG", alt: "Nsansa Orphanage Boys Ministry" },
-      { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5576_Original.JPG", alt: "Nsansa Orphanage Boys Ministry" },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5583_Original.JPG", alt: "Nsansa Orphanage Boys Ministry", tall: true },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5586_Original.JPG", alt: "Nsansa Orphanage Boys Ministry" },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5596_Original.JPG", alt: "Nsansa Orphanage Boys Ministry" },
@@ -48,7 +48,8 @@ const gallerySections = [
   {
     season: "Zambia 2025",
     photos: [
-      { src: "images/Photo Gallery/Zambia 2025/Basketball Ministry/DSC09607_Original.jpeg", alt: "Zambia 2025 — Basketball Ministry", wide: true, tall: true },
+      { src: "images/Photo Gallery/Zambia 2025/Street Ministry/DSC08635.JPG",               alt: "Zambia 2025 — Street Ministry", wide: true, tall: true },
+      { src: "images/Photo Gallery/Zambia 2025/Basketball Ministry/DSC09607_Original.jpeg", alt: "Zambia 2025 — Basketball Ministry" },
       { src: "images/Photo Gallery/Zambia 2025/Basketball Ministry/DSC09991_Original.jpeg", alt: "Zambia 2025 — Basketball Ministry" },
       { src: "images/Photo Gallery/Zambia 2025/Basketball Ministry/IMG_2020.jpeg",           alt: "Zambia 2025 — Basketball Ministry", wide: true },
       { src: "images/Photo Gallery/Zambia 2025/Other/DSC00285_Original.jpeg",               alt: "Zambia 2025" },
@@ -57,13 +58,12 @@ const gallerySections = [
       { src: "images/Photo Gallery/Zambia 2025/Other/DSC08700.JPG",                         alt: "Zambia 2025" },
       { src: "images/Photo Gallery/Zambia 2025/Other/IMG_1999.jpeg",                        alt: "Zambia 2025" },
       { src: "images/Photo Gallery/Zambia 2025/Street Ministry/DSC08633.JPG",               alt: "Zambia 2025 — Street Ministry", wide: true },
-      { src: "images/Photo Gallery/Zambia 2025/Street Ministry/DSC08635.JPG",               alt: "Zambia 2025 — Street Ministry" },
     ]
   },
   {
     season: "Freedom House Discipleship School 2025–2026",
     photos: [
-      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/e9d9dd64-c695-40c3-8ff5-44919243e1e2.JPG", alt: "Discipleship School", wide: true, tall: true },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC00397.jpg",     alt: "Discipleship School", wide: true, tall: true },
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/IMG_1998 2.JPG",   alt: "Discipleship School" },
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/IMG_3220 2.jpg",   alt: "Discipleship School", tall: true },
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/IMG_3600.jpg",     alt: "Discipleship School", wide: true },
@@ -72,6 +72,14 @@ const gallerySections = [
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/IMG_3658.JPEG",    alt: "Discipleship School" },
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/IMG_3671.JPEG",    alt: "Discipleship School", wide: true },
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/IMG_4244.JPEG",    alt: "Discipleship School" },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/e9d9dd64-c695-40c3-8ff5-44919243e1e2.JPG", alt: "Discipleship School" },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC00425.jpg",     alt: "Discipleship School", wide: true },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC00443.jpg",     alt: "Discipleship School", tall: true },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC00457.jpg",     alt: "Discipleship School" },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC04723.jpg",     alt: "Discipleship School" },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC04731.jpg",     alt: "Discipleship School", wide: true },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC05287.jpg",     alt: "Discipleship School" },
+      { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC05355.jpg",     alt: "Discipleship School", tall: true },
     ]
   }
 ];
