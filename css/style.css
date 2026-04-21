@@ -247,6 +247,9 @@ body {
   margin-bottom: 16px;
 }
 .about-text p:last-of-type { margin-bottom: 24px; }
+.story-teaser-closing {
+  color: var(--forest);
+}
 .story-section-title {
   font-family: var(--serif); font-size: 13px; font-weight: 600;
   letter-spacing: 1.5px; text-transform: uppercase;
