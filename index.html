@@ -43,13 +43,30 @@
   <!-- HERO -->
   <section class="hero" id="home">
     <div class="hero-texture"></div>
+    <div class="hero-cross" aria-hidden="true">
+      <svg viewBox="0 0 600 900" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="rugged-wood" x="-20%" y="-5%" width="140%" height="110%" color-interpolation-filters="sRGB">
+            <feTurbulence type="turbulence" baseFrequency="0.035" numOctaves="4" seed="9" result="edgeNoise"/>
+            <feDisplacementMap in="SourceGraphic" in2="edgeNoise" scale="11" xChannelSelector="R" yChannelSelector="G" result="roughShape"/>
+            <feTurbulence type="fractalNoise" baseFrequency="0.018 0.22" numOctaves="6" seed="31" result="grain"/>
+            <feComposite in="grain" in2="roughShape" operator="in" result="grainMask"/>
+            <feColorMatrix in="grainMask" type="matrix" values="0.4 0 0 0 0.1 0 0.28 0 0 0.08 0 0 0.1 0 0.02 0 0 0 0.55 0" result="tintedGrain"/>
+            <feBlend in="roughShape" in2="tintedGrain" mode="overlay"/>
+          </filter>
+        </defs>
+        <!-- vertical beam -->
+        <rect x="275" y="0"   width="50" height="900" fill="#c8a96e" filter="url(#rugged-wood)"/>
+        <!-- crossbar — centred at y=335, ~37% down the beam -->
+        <rect x="65"  y="310" width="470" height="50"  fill="#c8a96e" filter="url(#rugged-wood)"/>
+      </svg>
+    </div>
     <div class="hero-content fade-up">
       <div class="hero-eyebrow">A Purpose Driven Life</div>
       <div class="hero-name-block">
         <div class="hero-name-primary">Jack Clark</div>
         <div class="hero-name-secondary">Freedom House International</div>
       </div>
-      <div class="hero-divider"></div>
       <blockquote class="hero-verse">
         "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit."
       </blockquote>
