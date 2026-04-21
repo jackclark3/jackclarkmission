@@ -533,6 +533,36 @@ body {
 .giving-disclaimer a { color: var(--ink-muted); text-decoration: underline; }
 
 /* ============================================
+   CONTACT
+   ============================================ */
+.contact-section { padding: 80px 32px; }
+.contact-heading {
+  font-family: var(--serif); font-size: 32px; font-weight: 600;
+  color: var(--ink); margin: 0 0 40px; line-height: 1.2;
+}
+.contact-links {
+  display: flex; flex-direction: column; gap: 0;
+  max-width: 480px;
+}
+.contact-link {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 24px; padding: 20px 0;
+  border-bottom: 0.5px solid var(--border);
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+.contact-link:first-child { border-top: 0.5px solid var(--border); }
+.contact-link:hover .contact-link-value { color: var(--ink); }
+.contact-link-label {
+  font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--gold); font-family: var(--sans); flex-shrink: 0;
+}
+.contact-link-value {
+  font-family: var(--sans); font-size: 15px; color: var(--ink-soft);
+  transition: color 0.2s; text-align: right;
+}
+
+/* ============================================
    DONATE
    ============================================ */
 .donate-section {
