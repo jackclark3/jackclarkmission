@@ -846,7 +846,24 @@ body {
   font-family: var(--serif); font-size: 17px; font-style: italic;
   color: var(--ink); line-height: 1.65;
 }
-.story-page-back { margin-top: 64px; padding-top: 40px; border-top: 0.5px solid var(--border); }
+.story-page-contact {
+  margin-top: 64px; padding-top: 40px; border-top: 0.5px solid var(--border);
+}
+.story-contact-label {
+  font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 14px; font-family: var(--sans);
+}
+.story-contact-links {
+  display: flex; flex-direction: column; gap: 8px;
+}
+.story-contact-links a {
+  font-family: var(--sans); font-size: 15px; color: var(--ink-soft);
+  text-decoration: none; border-bottom: 1px solid var(--border);
+  padding-bottom: 1px; width: fit-content;
+  transition: color 0.2s, border-color 0.2s;
+}
+.story-contact-links a:hover { color: var(--ink); border-color: var(--ink); }
+.story-page-back { margin-top: 40px; }
 
 /* ============================================
    UPDATES PAGE
