@@ -1011,6 +1011,11 @@ body {
   padding-top: 52px; border-top: 0.5px solid var(--border);
 }
 .post-section-title:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.post-subsection-title {
+  font-family: var(--sans); font-size: 10px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase; color: var(--gold);
+  margin: 36px 0 12px;
+}
 .post-overlay-body p {
   font-size: 16px; line-height: 1.92; color: var(--ink-soft); margin-bottom: 20px;
 }
