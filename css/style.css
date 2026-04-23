@@ -57,7 +57,7 @@ body {
   text-decoration: none; flex-shrink: 0;
 }
 .nav-fhi-logo { height: 42px; width: auto; display: block; }
-.nav-logo-text { display: flex; flex-direction: column; gap: 2px; }
+.nav-logo-text { display: flex; flex-direction: column; gap: 5px; }
 .nav-logo-name {
   font-family: var(--serif); font-size: 15px; font-weight: 700;
   color: var(--ink); letter-spacing: 0.5px; line-height: 1;
@@ -311,6 +311,14 @@ body {
   transition: color 0.2s, border-color 0.2s;
 }
 .btn-outline:hover { color: var(--ink); border-color: var(--ink); }
+.btn-outline--secondary {
+  display: block;
+  width: fit-content;
+  margin-top: 14px;
+  color: var(--ink-muted);
+  border-color: var(--border);
+}
+.btn-outline--secondary:hover { color: var(--ink); border-color: var(--ink); }
 
 .mission-text-col p {
   font-size: 15px; line-height: 1.85; color: var(--ink-soft);
@@ -599,8 +607,8 @@ body {
 }
 .btn-donate:hover { background: var(--gold-pale); border-color: var(--gold); }
 .donate-note {
-  font-size: 11px; color: rgba(245,240,228,0.3);
-  letter-spacing: 0.3px; margin-top: 8px;
+  font-size: 11px; color: rgba(245,240,228,0.58);
+  letter-spacing: 0.8px; margin-top: 8px;
 }
 
 /* ============================================
@@ -730,6 +738,14 @@ body {
   font-size: 15px; line-height: 1.85; color: var(--ink-soft);
   margin-bottom: 0;
 }
+.inline-link {
+  font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+  color: var(--ink-muted); text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px; white-space: nowrap;
+  transition: color 0.2s, border-color 0.2s;
+}
+.inline-link:hover { color: var(--ink); border-color: var(--ink); }
 .expand-extra {
   max-height: 0;
   overflow: hidden;
@@ -1183,6 +1199,58 @@ body {
   font-size: 10px; color: var(--ink-muted); font-style: italic;
 }
 .tl-item--tentative .tl-content { opacity: 0.55; }
+.tl-dot--now {
+  background: var(--gold);
+  box-shadow: 0 0 0 3px rgba(200,169,110,0.22);
+}
+.mission-timeline-intro {
+  font-size: 13px; line-height: 1.75; color: var(--ink-soft);
+  max-width: 580px; margin: 0 0 32px; font-style: italic;
+}
+
+/* ============================================
+   MISSION — HOW CAN YOU BE A PART CTA
+   ============================================ */
+.mission-cta-hint {
+  margin-top: 52px;
+  padding-top: 48px;
+  border-top: 0.5px solid var(--border);
+  text-align: center;
+}
+.mission-cta-eyebrow {
+  font-size: 10px; letter-spacing: 3.5px; text-transform: uppercase;
+  color: var(--ink-muted); margin-bottom: 14px; font-weight: 400;
+}
+.mission-cta-heading {
+  font-family: var(--serif); font-size: 24px; font-style: italic;
+  font-weight: 400; color: var(--ink); margin-bottom: 10px; line-height: 1.3;
+}
+.mission-cta-sub {
+  font-size: 14px; color: var(--ink-soft); max-width: 360px;
+  margin: 0 auto 32px; line-height: 1.75;
+}
+.mission-cta-arrow-link {
+  display: inline-flex; flex-direction: column; align-items: center; gap: 8px;
+  text-decoration: none; transition: opacity 0.2s;
+}
+.mission-cta-arrow-link:hover { opacity: 0.65; }
+.mission-cta-arrow-label {
+  font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.mission-cta-arrow-stem {
+  display: block; width: 1px; height: 40px;
+  background: linear-gradient(to bottom, var(--gold-soft), rgba(200,169,110,0.08));
+  animation: scrollPulse 2s ease-in-out infinite;
+}
+.mission-cta-arrow-chevron {
+  display: block; width: 9px; height: 9px;
+  border-right: 1.5px solid var(--gold);
+  border-bottom: 1.5px solid var(--gold);
+  transform: rotate(45deg);
+  margin-top: -10px;
+  animation: scrollPulse 2s ease-in-out infinite;
+}
 
 /* ============================================
    GIVING — TWO-COLUMN LAYOUT
@@ -1284,7 +1352,7 @@ body {
   .giving-left .giving-chart { max-width: 640px; margin: 0 auto; }
   .funding-panel { position: static; }
   .mission-timeline-wrap { overflow-x: auto; padding-bottom: 8px; }
-  .tl-items { min-width: 520px; }
+  .tl-items { min-width: 620px; }
   .updates-header { flex-direction: column; gap: 8px; }
   .footer-bottom { flex-direction: column; text-align: center; }
   .gallery-folder-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1303,7 +1371,7 @@ body {
   .giving-person::before { width: 7px; height: 7px; left: 1px; }
   .giving-person::after { width: 9px; height: 9px; border-radius: 4.5px 4.5px 0 0; }
   .giving-icons { gap: 2px; padding: 0 6px 0 4px; }
-  .tl-items { min-width: 420px; }
+  .tl-items { min-width: 500px; }
   .tl-title { font-size: 11px; }
   .tl-date { font-size: 8px; }
   .giving-amount, .giving-totals-amount { font-size: 16px; width: 64px; }
