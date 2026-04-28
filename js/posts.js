@@ -10,6 +10,156 @@
 
 const posts = [
   {
+    id: "post-6",
+    date: "April 2026",
+    dateISO: "2026-04-28",
+    title: "FHDS — End of Year Update",
+    excerpt: "As I look back upon the last 9 months, it is incredible to think of all that the Lord has done. My time here has looked much different than I expected. I have shed a lot of tears, I have sang and rejoiced, I have felt very doubtful at times, and I have learned so much. I think at the heart of my time here at FHDS has been discipleship and community.",
+    content: `
+      <a class="post-video-thumb-link" href="https://www.youtube.com/watch?v=9KG1exRFOmY" target="_blank" rel="noopener">
+        <img class="post-video-thumb-img" src="https://img.youtube.com/vi/9KG1exRFOmY/maxresdefault.jpg" alt="FHDS — End of Year Update" />
+        <div class="post-video-play-btn" aria-hidden="true">
+          <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
+            <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#ff0000"/>
+            <path d="M45 24 27 14v20" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="post-video-yt-label">Watch on YouTube ↗</div>
+      </a>
+      <p class="post-photo-caption">FHDS End of Year Update &mdash; April 2026</p>
+      <a class="post-photos-link" href="gallery.html#folder-3">View Photos &rarr;</a>
+
+      <h3 class="post-section-title">Overview</h3>
+      <p>As I look back upon the last 9 months, it is incredible to think of all that the Lord has done. My time here has looked much different than I expected. I have shed a lot of tears, I have sang and rejoiced, I have felt very doubtful at times, and I have learned so much. I think at the heart of my time here at FHDS has been discipleship and community. When I first came here I knew that the Lord was calling me here to sanctify and grow me through community and in community. Coming into the school I had experienced very little true Christian community and discipleship. The type of discipleship where you have people alongside you who know everything about you. They see the whole you, the real you. They see your sin, your fear, your shame, and they call it out. They see your gifts and they can encourage you. Proverbs says that as iron sharpens iron, so one man sharpens another. But in order for iron to be sharpened, it has to rub up against another piece of iron. In order for this to happen we have to be close to each other, not just in proximity but in relationship as well, through vulnerability. We must allow ourselves to be exposed to people around us, people who love us, people who carry God&rsquo;s presence.</p>
+      <p>I have never been as mesmerized by the majesty of God, by the faithfulness of God, by His immeasurable love, as I have been here. As I look back over the year it has been a school of dying. Dying to myself, dying to plans and desires for my life that were rooted in this world. I feel as though I have been stripped down, and I have lost more than I have gained. It is a strange thing to say because usually we think of our lives as linear, that we are going to a school to gain more knowledge or information, to build our resume and acquire things. This hasn&rsquo;t been the case for me this year. It reminds me of this verse in Matthew 16:24:</p>
+
+      <blockquote class="post-verse-pull">
+        &ldquo;Then Jesus told his disciples, &lsquo;If anyone would come after me, let him deny himself and take up his cross and follow me.&rsquo;&rdquo;
+        <cite>Matthew 16:24</cite>
+      </blockquote>
+
+      <p>Following Jesus is costly, but there is no person and no endeavor more worthy of our lives on this earth. The beautiful thing about dying with the Lord is that it is followed by life. In John 12:24 Jesus says,</p>
+
+      <blockquote class="post-verse-pull">
+        &ldquo;Truly I tell you, unless a grain of wheat falls to the ground and dies, it remains by itself. But if it dies, it produces much fruit.&rdquo;
+        <cite>John 12:24</cite>
+      </blockquote>
+
+      <p>As I have died to myself, the things that remain have become much more clear, and the fruit much more pure. Magnifying the great love of God through my life. Seeking to know Him more. Pursuing love and building up the body of Christ. Pleading with the lost and broken, the unreached, to be reconciled to God. These are the highest purposes in my life. Below are some details on what my life has looked like this year more practically, as well as a link to some photos:</p>
+
+      <h3 class="post-section-title">Daily Rhythm</h3>
+
+      <table class="post-schedule-table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Morning</th>
+            <th>Afternoon &amp; Evening</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Teaching (9:30&ndash;12:30)</td>
+            <td>Prayer &amp; Worship, Men&rsquo;s Groups</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Work</td>
+            <td>Work</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Cultivate (Property Maintenance) (7&ndash;11am)</td>
+            <td>Teaching, Worship &amp; Prayer</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Work</td>
+            <td>Work</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Teaching (9&ndash;11:30)</td>
+            <td>Community Group</td>
+          </tr>
+          <tr>
+            <td>1st Friday</td>
+            <td>Intercession for Outreach</td>
+            <td>Outreach in the City</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="post-section-title">Class &amp; Scripture</h3>
+
+      <div class="post-semester-row">
+        <div class="post-semester-block">
+          <div class="post-semester-label">Semester 1</div>
+          <h4>The Old Testament</h4>
+          <ul>
+            <li>We walked through the entire OT chronologically. We went through the Law, prophets, judges, kings</li>
+            <li>The focus was on connecting us to the larger storyline of Scripture, not just accumulating information</li>
+          </ul>
+        </div>
+        <div class="post-semester-block">
+          <div class="post-semester-label">Semester 2</div>
+          <h4>Jesus &amp; the Early Church</h4>
+          <ul>
+            <li>We began with a slow, detailed study through the life of Jesus in the Gospels. We believe if we know who He was we will know who He is.</li>
+            <li>From here we moved into the early church and some more topical teaching on prayer, unity, lordship, and worship</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="post-section-title">Worship &amp; Prayer</h3>
+      <ul class="post-body-list">
+        <li>Worship would be outside under a pavilion. It was very simple and spontaneous with a guitar, cajon, and piano and a few leaders that would pray between songs</li>
+        <li>Themes would emerge often in our prayer as others started to pray. It was very cool to see God moving in a room through prayer</li>
+        <li>Getting to step in and lead prayer throughout the year, speak scripture aloud, and watch the body unify around it was something I grew to love</li>
+      </ul>
+
+      <h3 class="post-section-title">Evangelism &amp; Outreach</h3>
+      <ul class="post-body-list">
+        <li>Broke into small groups and shared the gospel in downtown Charleston</li>
+        <li>Partnered with FCA for a day of campus evangelism at College of Charleston</li>
+        <li>Volunteered at the local church and a Walk for Water event</li>
+      </ul>
+
+      <div class="post-story-highlight">
+        <div class="post-story-highlight-label">Testimony</div>
+        <p>Through what felt like a string of dead ends one outreach day, the Lord kept redirecting my team until we found ourselves with a man named Sam who was living under a bridge. I got to share the gospel with him, take him to church, share a meal, and pray with him. While I still knew him, he got off the streets, found a job, and found housing. Praising God for Sam.</p>
+      </div>
+
+      <h3 class="post-section-title">Work</h3>
+      <ul class="post-body-list">
+        <li>Throughout the year I worked part-time at Daniel Street, a software development company</li>
+        <li>This was a very early stage company one of my best friends from college started. I got to help them build and grow through my skills and connections</li>
+        <li>I also got to step into leadership training interns throughout the year which was exciting experience</li>
+        <li>Biggest takeaway: learning to lead without micromanaging but instead equipping people, and then trusting them</li>
+      </ul>
+
+      <h3 class="post-section-title">Summer Missions</h3>
+
+      <div class="post-missions-row">
+        <div class="post-mission-badge">
+          <div class="post-mission-month">June</div>
+          <div class="post-mission-place">Zambia</div>
+        </div>
+        <div class="post-mission-badge">
+          <div class="post-mission-month">July</div>
+          <div class="post-mission-place">Lebanon</div>
+        </div>
+      </div>
+
+      <h3 class="post-section-title">What&rsquo;s Next</h3>
+
+      <p>I will be joining FHI staff as Data Systems &amp; Missions Coordinator, with a focus on establishing mission hubs in the Middle East. I would love your prayers and partnership as I step into this next season. Thank you for being a part.</p>
+
+      <p class="post-signoff">With gratitude, Jack Clark</p>
+    `
+  },
+  {
     id: "post-5",
     date: "January 2026",
     dateISO: "2026-01-01",

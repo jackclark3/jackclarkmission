@@ -158,6 +158,15 @@
     }
 
     renderFolderGrid();
+
+    // Auto-open a folder when linked with #folder-N
+    (function() {
+      var hash = window.location.hash;
+      if (hash && hash.startsWith('#folder-')) {
+        var idx = parseInt(hash.replace('#folder-', ''), 10);
+        if (!isNaN(idx) && gallerySections[idx]) openFolder(idx);
+      }
+    })();
   </script>
 </body>
 </html>
