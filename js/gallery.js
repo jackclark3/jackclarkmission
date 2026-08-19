@@ -61,6 +61,25 @@ const gallerySections = [
     ]
   },
   {
+    season: "Zambia 2026",
+    photos: [
+      { src: "images/Photo Gallery/Zambia 2026/DSC09567.JPG",                                       alt: "Zambia 2026", wide: true, tall: true },
+      { src: "images/Photo Gallery/Zambia 2026/DSC08666.jpg",                                       alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/DSC07358.jpg",                                       alt: "Zambia 2026", tall: true },
+      { src: "images/Photo Gallery/Zambia 2026/DSC08606.jpg",                                       alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/DSC08627.jpg",                                       alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/DSC07354.jpg",                                       alt: "Zambia 2026", wide: true },
+      { src: "images/Photo Gallery/Zambia 2026/DSC07578.jpg",                                       alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/DSC00626.jpg",                                       alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/DSC02114.jpg",                                       alt: "Zambia 2026", wide: true },
+      { src: "images/Photo Gallery/Zambia 2026/AFMJulyMonthTrip-346.jpg",                          alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/DSCF2470.jpeg",                                      alt: "Zambia 2026", tall: true },
+      { src: "images/Photo Gallery/Zambia 2026/IMG_3959.jpg",                                       alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/8a9e3f10-95ba-4153-9a6e-2455e7f367b1.JPG",          alt: "Zambia 2026" },
+      { src: "images/Photo Gallery/Zambia 2026/20260526_062810_504523.JPEG",                        alt: "Zambia 2026" },
+    ]
+  },
+  {
     season: "Freedom House Discipleship School 2025–2026",
     photos: [
       { src: "images/Photo Gallery/Freedom House Discipleship School 2025-2026/DSC00397.jpg",     alt: "Discipleship School", wide: true, tall: true },
