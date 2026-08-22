@@ -1021,6 +1021,22 @@ body {
   padding: 60px 32px 96px;
   max-width: 700px; margin: 0 auto;
 }
+.post-headline {
+  font-family: var(--serif); font-size: 38px; font-weight: 600;
+  color: var(--ink); text-align: center; line-height: 1.2;
+  letter-spacing: 0.5px; margin: 0 0 10px;
+}
+.post-headline::after {
+  content: ''; display: block;
+  width: 44px; height: 2px; background: var(--gold);
+  margin: 18px auto 0;
+}
+.post-photo-hero {
+  display: block;
+  width: calc(100% + 64px); margin-left: -32px; margin-right: -32px;
+  margin-top: 40px; margin-bottom: 10px;
+  max-height: 520px; object-fit: cover;
+}
 .post-section-title {
   font-family: var(--serif); font-size: 22px; font-weight: 600;
   color: var(--ink); margin: 52px 0 18px; line-height: 1.3;
