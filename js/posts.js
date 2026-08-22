@@ -16,6 +16,7 @@ const posts = [
     title: "Summer 2026 Recap",
     excerpt: "&ldquo;Wow&hellip; I need a lot of grace.&rdquo; Those were some of the first words out of my mouth after arriving in Lusaka this summer. Not because anything had gone wrong, but because I recognized something I had never fully understood prior: leadership means your decisions affect other people and there is a weight to that.",
     content: `
+      <h3 class="post-section-title">Summer 2026 Recap</h3>
       <img src="images/Photo%20Gallery/Zambia%202026/DSC09567.JPG" class="post-photo" alt="Zambia 2026" />
       <p class="post-photo-caption">Lusaka, Zambia &mdash; Summer 2026</p>
 
