@@ -10,6 +10,59 @@
 
 const posts = [
   {
+    id: "post-9",
+    date: "August 2026",
+    dateISO: "2026-08-22",
+    title: "Summer 2026 Recap",
+    excerpt: "&ldquo;Wow&hellip; I need a lot of grace.&rdquo; Those were some of the first words out of my mouth after arriving in Lusaka this summer. Not because anything had gone wrong, but because I recognized something I had never fully understood prior: leadership means your decisions affect other people and there is a weight to that.",
+    content: `
+      <img src="images/Photo%20Gallery/Zambia%202026/DSC09567.JPG" class="post-photo" alt="Zambia 2026" />
+      <p class="post-photo-caption">Lusaka, Zambia &mdash; Summer 2026</p>
+
+      <h3 class="post-section-title">Learning to Lead</h3>
+      <p>&ldquo;Wow&hellip; I need a lot of grace.&rdquo; Those were some of the first words out of my mouth after arriving in Lusaka this summer. Not because anything had gone wrong, but because I recognized something I had never fully understood prior: leadership means your decisions affect other people and there is a weight to that. I had to lean on God&rsquo;s strength and wisdom to handle situations that I could never prepare for. I found myself constantly praying under my breath, &ldquo;Lord give me wisdom&rdquo; before stepping into a meeting or conversation.</p>
+      <p>I experienced the tangibles of ministry: preparing a teaching, planning logistics, and sitting in meetings. But I also realized that so much of leading in ministry is intangible and unseen. It is the long conversations, the prayers, the fighting for unity&mdash;all of the things that can&rsquo;t be quantified or photographed.</p>
+      <p>Through all of this, I began to realize that ministry is much like farming. A seed is planted, tended, and cared for long before it ever yields fruit. I got to see this up close with our discipleship school over the last year, an experience I&rsquo;ll always cherish.</p>
+
+      <h3 class="post-section-title">Farming</h3>
+      <p>As the school year came to a close, many of us described it as a year of dying; dying to ourselves so that Christ could produce something new in us. Appealing, isn&rsquo;t it?</p>
+      <p>Jesus says in John 12:24,</p>
+
+      <blockquote class="post-verse-pull">
+        &ldquo;Unless a grain of wheat falls into the earth and dies, it remains alone; but if it dies, it bears much fruit.&rdquo;
+        <cite>John 12:24</cite>
+      </blockquote>
+
+      <p>Over the course of nine months, God was preparing us for leadership by pruning the parts of our lives that could not bear fruit. We came into the summer as seedlings that had fallen on fertile soil, and a holy tree quickly began to sprout.</p>
+      <p>I watched our servanthood team flourish in the unique gifts God had given each of them. I saw us teach, lead, worship, and shepherd with incredible faithfulness. Paul&rsquo;s words in Ephesians 4 came alive as I watched those gifts build up the body of Christ.</p>
+      <p>But I also learned that gifts alone aren&rsquo;t enough&mdash;they&rsquo;re meant to bear fruit. A branch can stretch far, but without fruit, it misses its purpose.</p>
+      <p>As I saw our branches stretch wide and fruit begin to fall, I then got to witness new seeds being planted. As we taught, worshipped, and discipled team members and locals, seeds were being planted. In Zambia there were seeds that the locals will be watering; in team members there were seeds that we will be called to water.</p>
+      <p>In 1 Corinthians 3:6 Paul says,</p>
+
+      <blockquote class="post-verse-pull">
+        &ldquo;I planted the seed, Apollos watered it, but God has been making it grow.&rdquo;
+        <cite>1 Corinthians 3:6</cite>
+      </blockquote>
+
+      <p>It is ultimately a joy to labor for Jesus. Whether we see the growth or not&mdash;and often times we won&rsquo;t&mdash;it is the intimacy of obedience to Him that carries us.</p>
+
+      <h3 class="post-section-title">Looking Ahead</h3>
+      <p>This summer served as a sobering but beautiful introduction to the ministry that I will be stepping into full time this upcoming year. A ministry that I won&rsquo;t survive in if I am looking for instant gratification, but one that rewards patience and long-suffering.</p>
+      <p>As I step into the next few months of fundraising, I am equipped and encouraged by my experience this summer. I feel a fresh wind of the Lord behind me that I know will carry me through what is to come.</p>
+
+      <h3 class="post-section-title">Prayer Requests</h3>
+      <ul class="post-body-list">
+        <li>Pray for wisdom and faith as I begin raising support for full-time ministry.</li>
+        <li>Pray that God would continue producing lasting fruit from the seeds planted this summer.</li>
+        <li>Pray that I would continue to walk in dependence on Christ and remain faithful wherever He leads.</li>
+      </ul>
+
+      <p>Thank you all for your prayers, encouragement, and support. I am continually reminded that I don&rsquo;t get to do this alone. Your partnership makes this ministry possible, and I am grateful for each of you.</p>
+
+      <p class="post-signoff">Grace and peace, Jack Clark</p>
+    `
+  },
+  {
     id: "post-8",
     date: "July 2026",
     dateISO: "2026-07-03",
