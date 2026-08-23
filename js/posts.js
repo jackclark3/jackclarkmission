@@ -17,7 +17,7 @@ const posts = [
     excerpt: "&ldquo;Wow&hellip; I need a lot of grace.&rdquo; Those were some of the first words out of my mouth after arriving in Lusaka this summer. Not because anything had gone wrong, but because I recognized something I had never fully understood prior: leadership means your decisions affect other people and there is a weight to that.",
     content: `
       <h2 class="post-headline">Summer 2026 Recap</h2>
-      <img src="images/Photo%20Gallery/Zambia%202026/DSC09567.JPG" class="post-photo-hero" alt="Zambia 2026" />
+      <img src="images/Photo%20Gallery/Zambia%202026/DSC09567.webp" class="post-photo-hero" alt="Zambia 2026" />
       <p class="post-photo-caption">Lusaka, Zambia &mdash; Summer 2026</p>
 
       <h3 class="post-section-title">Learning to Lead</h3>
@@ -275,7 +275,7 @@ const posts = [
       <h3 class="post-section-title">Looking Forward</h3>
       <p>Over the next four months we will be walking through the life of Jesus, the apostolic writings of the New Testament, and receiving leadership training as preparation for the summer. On May 20th we will leave for our international missions assignment for three months to close out the program. I am so excited for what the next seven months hold and I truly look forward to sharing it with all of you who have stood behind me during this. I pray that God would bless you and bring you peace, and that we would be molded and perfected in His presence and in community.</p>
 
-      <img src="images/Photo%20Gallery/Freedom%20House%20Discipleship%20School%202025-2026/IMG_3220%202.jpg" class="post-photo" alt="Group photo, Charleston" />
+      <img src="images/Photo%20Gallery/Freedom%20House%20Discipleship%20School%202025-2026/IMG_3220%202.webp" class="post-photo" alt="Group photo, Charleston" />
       <p class="post-photo-caption">Charleston, Fall 2025</p>
 
       <p class="post-signoff">With gratitude, Jack Clark</p>
@@ -295,7 +295,7 @@ const posts = [
       <p>When I first arrived in Charleston, things took off quickly. The first week, our group of guys set off on a three-day backpacking trip in Tennessee, followed by whitewater rafting and a lake day, all with the goal of getting to know the ones we'd be spending the next year with. The Lord blessed us with generous people who provided meals, housing, and rafts along the way, making this trip possible for us. We packed military MREs for food and even did an "MRE draft" the first night — I ended up with Chicken Royale and Chili Mac (they taste a lot better after you've been hiking for 6 hours).</p>
       <p>The trip took an unexpected turn on day two when two guys from the team injured their knees — one badly enough that he couldn't walk. We were 4 miles from any civilization and 8 miles from our pick-up point. Without hesitation, the rest of us came together, carrying him more than four miles uphill while others doubled up on packs. As grueling as it was, I was stunned by the response from our team. Everyone was eager to carry each other's weight and I didn't hear a single complaint. As we hiked, the guys encouraged each other, quoting Scripture, and reminding our friend that it was our joy to carry him, just as it was Jesus's joy to carry the cross (Hebrews 12:2).</p>
 
-      <img src="images/Photo%20Gallery/Freedom%20House%20Discipleship%20School%202025-2026/IMG_3658.JPEG" class="post-photo" alt="Tennessee mountains, backpacking trip" />
+      <img src="images/Photo%20Gallery/Freedom%20House%20Discipleship%20School%202025-2026/IMG_3658.webp" class="post-photo" alt="Tennessee mountains, backpacking trip" />
       <p class="post-photo-caption">Tennessee, Fall 2025</p>
 
       <p>At one point, after a long steep climb, our leader Andrew gathered us on a rock and told us to look back. Our heads had all been down for the last hour, just putting one foot in front of the other. We lifted our heads to a stunning mountain landscape, made even more beautiful by the carved trail we had just struggled up. He reminded us that our suffering made the view that much more beautiful, just as life's trials prepare us for the glory to come (Romans 8:18). That lesson was so simple yet so powerful. It can be so easy to put your head down when things are difficult and forget to admire the beauty.</p>
@@ -334,7 +334,7 @@ const posts = [
       <p>In Guatemala, we participated in building projects for multiple families and installed ceramic wood-fired ovens for families in rural mountain towns. We also got to be part of a feeding and teaching program for children on the mountainside. One home in the community agreed to host this program and provided food, tables, and chairs. We helped with cooking and serving food to dozens of children who walked up to 8 miles to hear the Bible read and to eat a meal.</p>
       <p>We were able to share in fellowship with these kids and assist in some Bible teaching. It was a joy to see how eager these kids were to come participate in this program and how much it filled them with life. In addition to this we did home visits, building relationships with locals within the community and having Gospel-centered conversations.</p>
 
-      <img src="images/newsletter-2025-summer/guatemala-ministry.jpg" class="post-photo" alt="Ministry with children in Guatemala" />
+      <img src="images/newsletter-2025-summer/guatemala-ministry.webp" class="post-photo" alt="Ministry with children in Guatemala" />
       <p class="post-photo-caption">Guatemala, Summer 2025</p>
 
       <p class="post-subsection-title">Local Culture</p>
@@ -343,7 +343,7 @@ const posts = [
       <p class="post-subsection-title">Prayer</p>
       <p>Guatemalans deeply believe in the power of prayer and its importance within ministry, and it was evident by their passion. There were countless tears shed in this prayer room and deep cries of repentance and pleading on behalf of nations and communities. What was fascinating about this was that; to many it may have seemed like a waste of time, but to them it was the heart and soul of everything they did. It was shaping their hearts and the way that they saw people. It was influencing the way that they made decisions and ran their ministry. And maybe the most incredible piece — people were actually finding Christ inadvertently through this time of prayer.</p>
 
-      <img src="images/newsletter-2025-summer/guatemala-prayer-room.jpg" class="post-photo" alt="Prayer and worship in Antigua" />
+      <img src="images/newsletter-2025-summer/guatemala-prayer-room.webp" class="post-photo" alt="Prayer and worship in Antigua" />
       <p class="post-photo-caption">Prayer room, Antigua, Guatemala</p>
 
       <h3 class="post-section-title">Zambia</h3>
@@ -351,19 +351,19 @@ const posts = [
       <p class="post-subsection-title">Change of Plans</p>
       <p>Following our time in Guatemala, we were supposed to go to Lebanon. The conflict between Israel and Iran was escalating as we were approaching our flight date, and as we were de-boarding our connecting flight to then head to Beirut, all incoming flights to Beirut were cancelled. This was a difficult transition for our team because many of us felt passionate about the Middle East and were eager to do ministry there. Luckily there was another AFM team in Zambia that was already in motion, and we were able to seamlessly re-route our flights and join in with them. Zambia ended up being an incredibly impactful experience with a ton of fruit. We saw 20–30 people give their life to Jesus and shared in some very unique ministry experiences.</p>
 
-      <img src="images/newsletter-2025-summer/zambia-team.jpg" class="post-photo" alt="Team in Zambia" />
+      <img src="images/newsletter-2025-summer/zambia-team.webp" class="post-photo" alt="Team in Zambia" />
       <p class="post-photo-caption">Zambia, Summer 2025</p>
 
       <p class="post-subsection-title">Living Experience</p>
       <p>We were staying at a ministry-run orphanage and nursing program in a town called Kitwe. The cool thing about this was that we were living on property with tons of kids who had no real family. We were able to build relationships with them during our time there that were impactful for the both of us. I remember one of the first nights there I was sitting on the porch in the pitch black, playing my guitar with my eyes closed. I opened my eyes to see 10 little eyes sitting on the ground, staring back at me. We went on to sing a few worship songs together before going to bed. That was the sort of unique experience we were able to have in Kitwe — unplanned and organic opportunities to share the love of God.</p>
 
-      <img src="images/newsletter-2025-summer/zambia-orphanage.jpg" class="post-photo" alt="Children at the orphanage in Kitwe, Zambia" />
+      <img src="images/newsletter-2025-summer/zambia-orphanage.webp" class="post-photo" alt="Children at the orphanage in Kitwe, Zambia" />
       <p class="post-photo-caption">Kitwe, Zambia</p>
 
       <p class="post-subsection-title">Basketball Ministry</p>
       <p>We also had the opportunity to do basketball ministry in a few local communities. We noticed that when 5 white dudes show up to a basketball court in Zambia, everyone becomes very interested. We played some of the locals on a court full of pot holes, and as we played hundreds of people gathered around. Once the game was over we gathered the crowd and got to share our stories and share the Gospel. We saw many lives impacted by this over 3 different days, and at the end we co-hosted a worship night with the local church where we were able to invite our friends we had made. Being able to build relationships that transitioned into the local church was very special.</p>
 
-      <img src="images/newsletter-2025-summer/zambia-basketball.jpg" class="post-photo" alt="Basketball ministry in Zambia" />
+      <img src="images/newsletter-2025-summer/zambia-basketball.webp" class="post-photo" alt="Basketball ministry in Zambia" />
       <p class="post-photo-caption">Basketball ministry, Zambia</p>
 
       <h3 class="post-section-title">A Special Testimony</h3>
@@ -372,7 +372,7 @@ const posts = [
       <p>I finally looked at him and confessed that I didn't speak much Spanish, but that I wanted to pray for him. Before he could give me permission, I put my arm around him and began to pray. A few minutes in he began to weep, and a few minutes after that his head was on my shoulder. I stood up and gave him a hug that must have lasted minutes. I was supernaturally filled with compassion and love for this random drunk man. I asked him to come inside with me, but he quickly replied, "no, no, no, I am too messy." I put my arm around him and said, "you have no idea, you can't be too messy." As we walked into that coffee shop there was a radiant presence of God in that place, and the music was echoing out into the streets. Within minutes of standing in that room, the man fell to his knees and began to worship. Over the next hour this drunk and bloodied man had a personal encounter with the living God on his hands and knees. He shared his story with me and a brother from the local ministry named Jeffrey, and we prayed over him and walked him through some healing. He shared about how his father had tried to kill him when he was a child, how he had been in and out of prisons and gangs, and how he had nothing left to live for.</p>
       <p>By the time the worship was finished, he was a different person. As he was walking out the door he told me to listen to a song — very persistently. The name of the song was "Jesus es un verbo, no sustantivo," which translates to "Jesus is a verb, not a noun." It was all about how the church can talk about Jesus but not actually live like Jesus. I realized that this man had believed he was too messy to come into a church, and that Jesus wasn't interested in messy people like him, but when he stepped into that room his entire belief system was crushed. I never even got the man's name, but I believe I will see him again one day, and I am forever grateful for the way that God encountered him that night.</p>
 
-      <img src="images/newsletter-2025-summer/guatemala-testimony.jpg" class="post-photo" alt="Worship in the coffee shop, Antigua" />
+      <img src="images/newsletter-2025-summer/guatemala-testimony.webp" class="post-photo" alt="Worship in the coffee shop, Antigua" />
       <p class="post-photo-caption">Antigua, Guatemala</p>
 
       <p class="post-signoff">With gratitude, Jack Clark</p>
