@@ -141,7 +141,7 @@ function renderGallery() {
       if (photo.tall) classes.push('tall');
       const srcEncoded = encodeURI(photo.src);
       const altEsc = (photo.alt || 'Gallery photo').replace(/'/g, '&#39;');
-      return `<div class="${classes.join(' ')}" onclick="openLightbox('${srcEncoded}', '${altEsc}')"><img src="${srcEncoded}" alt="${photo.alt || 'Gallery photo'}" loading="lazy" /></div>`;
+      return `<div class="${classes.join(' ')}" onclick="openLightbox('${srcEncoded}', '${altEsc}', ${idx}, ${i})"><img src="${srcEncoded}" alt="${photo.alt || 'Gallery photo'}" loading="lazy" /></div>`;
     }).join('');
 
     return `

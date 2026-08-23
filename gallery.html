@@ -87,8 +87,11 @@
 
   <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox" onclick="closeLightbox()">
-    <div class="lightbox-close">✕</div>
-    <img id="lightboxImg" src="" alt="" />
+    <div class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">✕</div>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" onclick="event.stopPropagation(); navigateLightbox(-1)">&#8249;</button>
+    <img id="lightboxImg" src="" alt="" onclick="event.stopPropagation()" />
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" onclick="event.stopPropagation(); navigateLightbox(1)">&#8250;</button>
+    <div class="lightbox-counter" id="lightboxCounter"></div>
   </div>
 
   <footer class="footer">
@@ -135,14 +138,15 @@
 
       titleEl.textContent = section.season;
       countEl.textContent = section.photos.length + ' photos';
+      var sectionPhotos = section.photos;
       photosEl.innerHTML = '<div class="gallery-grid">' +
-        section.photos.map(function(photo, i) {
+        sectionPhotos.map(function(photo, i) {
           var classes = ['gallery-item'];
           if (photo.wide) classes.push('wide');
           if (photo.tall) classes.push('tall');
           var srcEncoded = encodeURI(photo.src);
           var altEsc = (photo.alt || 'Gallery photo').replace(/'/g, '&#39;');
-          return '<div class="' + classes.join(' ') + '" onclick="openLightbox(\'' + srcEncoded + '\', \'' + altEsc + '\')">' +
+          return '<div class="' + classes.join(' ') + '" onclick="openLightbox(\'' + srcEncoded + '\', \'' + altEsc + '\', ' + idx + ', ' + i + ')">' +
             '<img src="' + srcEncoded + '" alt="' + (photo.alt || 'Gallery photo') + '" loading="lazy" /></div>';
         }).join('') + '</div>';
 

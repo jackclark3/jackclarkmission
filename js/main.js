@@ -47,14 +47,42 @@ setTimeout(() => {
 }, 200);
 
 // Lightbox
-function openLightbox(src, alt) {
+let _lbSectionIdx = 0;
+let _lbPhotoIdx = 0;
+
+function openLightbox(src, alt, sectionIdx, photoIdx) {
   const lb = document.getElementById('lightbox');
   const img = document.getElementById('lightboxImg');
   if (!lb || !img) return;
+  _lbSectionIdx = sectionIdx !== undefined ? sectionIdx : -1;
+  _lbPhotoIdx = photoIdx !== undefined ? photoIdx : 0;
   img.src = src;
   img.alt = alt || '';
   lb.classList.add('open');
   document.body.style.overflow = 'hidden';
+  _updateLightboxNav();
+}
+
+function _updateLightboxNav() {
+  const prev = document.getElementById('lightboxPrev');
+  const next = document.getElementById('lightboxNext');
+  const counter = document.getElementById('lightboxCounter');
+  const photos = (_lbSectionIdx >= 0 && typeof gallerySections !== 'undefined')
+    ? gallerySections[_lbSectionIdx].photos : [];
+  const show = photos.length > 1;
+  if (prev) prev.style.display = show ? 'flex' : 'none';
+  if (next) next.style.display = show ? 'flex' : 'none';
+  if (counter) counter.textContent = show ? (_lbPhotoIdx + 1) + ' / ' + photos.length : '';
+}
+
+function navigateLightbox(dir) {
+  if (_lbSectionIdx < 0 || typeof gallerySections === 'undefined') return;
+  const photos = gallerySections[_lbSectionIdx].photos;
+  _lbPhotoIdx = (_lbPhotoIdx + dir + photos.length) % photos.length;
+  const photo = photos[_lbPhotoIdx];
+  const img = document.getElementById('lightboxImg');
+  if (img) { img.src = encodeURI(photo.src); img.alt = photo.alt || ''; }
+  _updateLightboxNav();
 }
 
 function closeLightbox() {
@@ -63,9 +91,29 @@ function closeLightbox() {
   document.body.style.overflow = '';
 }
 
+// Keyboard navigation
 document.addEventListener('keydown', (e) => {
+  const lb = document.getElementById('lightbox');
+  if (!lb || !lb.classList.contains('open')) return;
   if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'ArrowRight') navigateLightbox(1);
+  if (e.key === 'ArrowLeft') navigateLightbox(-1);
 });
+
+// Touch swipe navigation
+(function() {
+  let _touchStartX = 0;
+  document.addEventListener('touchstart', (e) => {
+    const lb = document.getElementById('lightbox');
+    if (lb && lb.classList.contains('open')) _touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  document.addEventListener('touchend', (e) => {
+    const lb = document.getElementById('lightbox');
+    if (!lb || !lb.classList.contains('open')) return;
+    const dx = e.changedTouches[0].clientX - _touchStartX;
+    if (Math.abs(dx) > 50) navigateLightbox(dx < 0 ? 1 : -1);
+  }, { passive: true });
+})();
 
 // Read More toggle for story
 function toggleStory() {
