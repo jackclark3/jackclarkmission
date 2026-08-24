@@ -1340,8 +1340,8 @@ body {
   stroke: var(--gold);
   stroke-width: 9;
   stroke-linecap: round;
-  /* r=56, circumference≈351.86; 18.4%≈64.74 */
-  stroke-dasharray: 64.74 287.12;
+  /* r=56, circumference≈351.86; 17.6%≈61.93 */
+  stroke-dasharray: 61.93 289.93;
 }
 .funding-ring-center {
   position: absolute; inset: 0;
