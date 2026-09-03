@@ -488,18 +488,28 @@ body {
 .giving-person {
   display: inline-block; width: 11px; height: 20px;
   position: relative; flex-shrink: 0;
+  opacity: 0.4;
 }
 .giving-person::before {
-  content: ''; position: absolute;
+  content: ''; position: absolute; box-sizing: border-box;
   width: 8px; height: 8px;
-  background: var(--gold); border-radius: 50%;
+  background: transparent; border: 1px solid var(--ink-muted); border-radius: 50%;
   top: 0; left: 1.5px;
 }
 .giving-person::after {
-  content: ''; position: absolute;
+  content: ''; position: absolute; box-sizing: border-box;
   bottom: 0; left: 0;
   width: 11px; height: 11px;
-  background: var(--gold); border-radius: 5.5px 5.5px 0 0;
+  background: transparent; border: 1px solid var(--ink-muted); border-radius: 5.5px 5.5px 0 0;
+}
+.giving-person.is-filled {
+  opacity: 1;
+}
+.giving-person.is-filled::before {
+  background: var(--gold); border-color: var(--gold);
+}
+.giving-person.is-filled::after {
+  background: var(--gold); border-color: var(--gold);
 }
 .giving-rule {
   flex: 1; height: 1px; background: var(--border);
@@ -532,6 +542,16 @@ body {
 .giving-per-mo {
   font-size: 12px; font-weight: 400; color: var(--ink-muted);
 }
+.giving-secured-note {
+  display: flex; align-items: center; gap: 8px;
+  margin-top: 16px;
+  font-size: 12px; line-height: 1.6; color: var(--ink-muted);
+}
+.giving-secured-dot {
+  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--gold); flex-shrink: 0;
+}
+.giving-secured-note strong { color: var(--ink); font-weight: 700; }
 .giving-cta { margin-top: 32px; text-align: center; }
 .giving-disclaimer {
   max-width: 480px; margin: 20px auto 0;
@@ -1340,8 +1360,8 @@ body {
   stroke: var(--gold);
   stroke-width: 9;
   stroke-linecap: round;
-  /* r=56, circumference≈351.86; 17.6%≈61.93 */
-  stroke-dasharray: 61.93 289.93;
+  /* r=56, circumference≈351.86; 21.4% ($1,350 of $6,300)≈75.40 */
+  stroke-dasharray: 75.40 276.46;
 }
 .funding-ring-center {
   position: absolute; inset: 0;
@@ -1355,6 +1375,19 @@ body {
 .funding-ring-of {
   font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
   color: var(--ink-muted); margin-top: 5px;
+}
+.funding-secured-label {
+  font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase;
+  color: var(--ink-muted); margin-bottom: 8px;
+}
+.funding-secured-amount {
+  font-family: var(--serif); font-size: 26px; font-weight: 600;
+  color: var(--gold); line-height: 1.2;
+}
+.funding-secured-of {
+  display: block;
+  font-family: var(--sans); font-size: 11px; font-weight: 400;
+  letter-spacing: 0.3px; color: var(--ink-muted); margin-top: 3px;
 }
 .funding-panel-divider {
   height: 0.5px; background: var(--border); margin: 22px 0;
