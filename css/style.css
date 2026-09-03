@@ -543,13 +543,13 @@ body {
   font-size: 12px; font-weight: 400; color: var(--ink-muted);
 }
 .giving-secured-note {
-  display: flex; align-items: center; gap: 8px;
-  margin-top: 16px;
-  font-size: 12px; line-height: 1.6; color: var(--ink-muted);
+  max-width: 480px; margin: 16px auto 0;
+  font-size: 12px; line-height: 1.75; color: var(--ink-muted);
+  text-align: center;
 }
 .giving-secured-dot {
-  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
-  background: var(--gold); flex-shrink: 0;
+  display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--gold); margin-right: 7px; vertical-align: middle;
 }
 .giving-secured-note strong { color: var(--ink); font-weight: 700; }
 .giving-cta { margin-top: 32px; text-align: center; }
