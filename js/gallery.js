@@ -19,7 +19,6 @@ const gallerySections = [
       { src: "images/Photo Gallery/Zambia 2024/_DSF4851_Original.webp",   alt: "Zambia 2024", wide: true },
       { src: "images/Photo Gallery/Zambia 2024/_DSF5037_Original.webp",   alt: "Zambia 2024" },
       { src: "images/Photo Gallery/Zambia 2024/_DSF5454_Original.webp",   alt: "Zambia 2024" },
-      { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5537_Original.webp", alt: "Nsansa Orphanage Boys Ministry", wide: true },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5554_Original.webp", alt: "Nsansa Orphanage Boys Ministry" },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5583_Original.webp", alt: "Nsansa Orphanage Boys Ministry", tall: true },
       { src: "images/Photo Gallery/Zambia 2024/Nsansa Orphanage Boys Ministry/_DSF5586_Original.webp", alt: "Nsansa Orphanage Boys Ministry" },

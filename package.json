@@ -1,0 +1,36 @@
+{
+  "name": "jack-clark-mission",
+  "version": "1.0.0",
+  "description": "Jack Clark Mission website — static HTML/CSS/JS site with lint, data-integrity tests, and a link/asset check",
+  "private": true,
+  "scripts": {
+    "lint:js": "eslint js",
+    "lint:css": "stylelint \"css/**/*.css\"",
+    "lint:html": "html-validate \"*.html\"",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
+    "test": "vitest run",
+    "build": "node scripts/check-links.js",
+    "verify": "npm run lint && npm run test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackclark3/jackclarkmission.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jackclark3/jackclarkmission/issues"
+  },
+  "homepage": "https://github.com/jackclark3/jackclarkmission#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "globals": "^17.12.0",
+    "html-validate": "^11.13.0",
+    "stylelint": "^17.15.0",
+    "stylelint-config-recommended": "^18.0.0",
+    "vitest": "^4.1.11"
+  }
+}

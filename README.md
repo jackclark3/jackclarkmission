@@ -121,6 +121,27 @@ jack-clark-mission/
 
 ---
 
+## BEFORE YOU DEPLOY (checking your edits)
+
+Since blog posts and gallery photos are added by hand-editing `js/posts.js` and
+`js/gallery.js`, it's easy to introduce a typo — a mistyped image filename, a
+duplicate photo, a broken link — that won't show up until it's live. This repo
+has a few commands (Node.js required) that catch that before you upload:
+
+```
+npm install     # one-time setup
+npm run lint    # checks JS/CSS/HTML for mistakes
+npm test        # checks posts.js/gallery.js: unique ids, valid dates,
+                # every referenced photo actually exists, no duplicates
+npm run build   # checks every internal link/anchor and image path
+                # across the whole site actually resolves
+npm run verify  # runs all three
+```
+
+If `npm run verify` passes, it's safe to re-upload the folder to Netlify.
+
+---
+
 ## QUESTIONS?
 
 Email: jack30clark@gmail.com

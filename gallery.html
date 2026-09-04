@@ -24,16 +24,16 @@
         </a>
       </div>
       <div class="nav-links">
-        <a href="story.html">About</a>
+        <a href="index.html#about">About</a>
         <a href="index.html#mission">Mission</a>
         <a href="updates.html">Updates</a>
         <a href="gallery.html" class="nav-active">Gallery</a>
       </div>
       <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" class="btn-nav">Give Now</a>
-      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+      <button type="button" class="nav-hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
     </div>
     <div class="nav-mobile" id="mobileMenu">
-      <a href="story.html" onclick="closeMobile()">About</a>
+      <a href="index.html#about" onclick="closeMobile()">About</a>
       <a href="index.html#mission" onclick="closeMobile()">Mission</a>
       <a href="updates.html" onclick="closeMobile()">Updates</a>
       <a href="gallery.html" onclick="closeMobile()">Gallery</a>
@@ -76,7 +76,7 @@
   <!-- FOLDER OVERLAY -->
   <div class="folder-overlay" id="folderOverlay">
     <div class="folder-overlay-header">
-      <button class="folder-overlay-close" onclick="closeFolder()">← Back to Gallery</button>
+      <button type="button" class="folder-overlay-close" onclick="closeFolder()">← Back to Gallery</button>
       <div class="folder-overlay-title" id="folderOverlayTitle"></div>
       <div class="folder-overlay-count" id="folderOverlayCount"></div>
     </div>
@@ -88,9 +88,9 @@
   <!-- LIGHTBOX -->
   <div class="lightbox" id="lightbox" onclick="closeLightbox()">
     <div class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">✕</div>
-    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" onclick="event.stopPropagation(); navigateLightbox(-1)">&#8249;</button>
+    <button type="button" class="lightbox-nav lightbox-prev" id="lightboxPrev" onclick="event.stopPropagation(); navigateLightbox(-1)">&#8249;</button>
     <img id="lightboxImg" src="" alt="" onclick="event.stopPropagation()" />
-    <button class="lightbox-nav lightbox-next" id="lightboxNext" onclick="event.stopPropagation(); navigateLightbox(1)">&#8250;</button>
+    <button type="button" class="lightbox-nav lightbox-next" id="lightboxNext" onclick="event.stopPropagation(); navigateLightbox(1)">&#8250;</button>
     <div class="lightbox-counter" id="lightboxCounter"></div>
   </div>
 
@@ -98,7 +98,7 @@
     <div class="footer-inner">
       <div class="footer-logo">Jack Clark · Mission</div>
       <div class="footer-links">
-        <a href="story.html">About</a>
+        <a href="index.html#about">About</a>
         <a href="index.html#mission">Mission</a>
         <a href="updates.html">Updates</a>
         <a href="gallery.html">Gallery</a>
