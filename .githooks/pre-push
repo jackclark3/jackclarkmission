@@ -1,0 +1,23 @@
+#!/bin/sh
+# Pre-push hook: blocks the push if `npm run verify` (lint + test + build)
+# fails. Enabled by `git config core.hooksPath .githooks` (see README).
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root" || exit 1
+
+if [ ! -d node_modules ]; then
+  echo "pre-push: node_modules/ not found — run 'npm install' first." >&2
+  exit 1
+fi
+
+echo "pre-push: running 'npm run verify'..."
+npm run verify
+status=$?
+
+if [ $status -ne 0 ]; then
+  echo "" >&2
+  echo "pre-push: verify failed — push blocked. Fix the issue above, or" >&2
+  echo "use 'git push --no-verify' to skip this check." >&2
+fi
+
+exit $status

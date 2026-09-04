@@ -140,6 +140,14 @@ npm run verify  # runs all three
 
 If `npm run verify` passes, it's safe to re-upload the folder to Netlify.
 
+This repo also has a git pre-push hook that runs `npm run verify`
+automatically and blocks `git push` if it fails. It's already enabled in this
+clone; after cloning fresh elsewhere, enable it once with:
+
+```
+git config core.hooksPath .githooks
+```
+
 ---
 
 ## QUESTIONS?
