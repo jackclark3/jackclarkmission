@@ -10,6 +10,70 @@
 
 const posts = [
   {
+    id: "post-10",
+    date: "September 2026",
+    dateISO: "2026-09-23",
+    title: "September 2026 Update",
+    excerpt: "Fundraising is challenging in a really good way. It calls you out of your comfort zone. It pushes you to stand behind what you are doing and why. And I think the best part; it&rsquo;s an opportunity to bring others in.",
+    content: `
+      <h2 class="post-headline">September 2026 Update</h2>
+      <img src="images/newsletters/post-10/post-10-1.webp" class="post-photo-hero" alt="Hiking Roan Mountain at sunrise" />
+      <p class="post-photo-caption">Leesburg, VA / Boston, MA / Charleston, SC &mdash; September 2026</p>
+
+      <h3 class="post-section-title">More than money</h3>
+      <p>Fundraising is challenging in a really good way. It calls you out of your comfort zone. It pushes you to stand behind what you are doing and why. And I think the best part; it&rsquo;s an opportunity to bring others in. For some people, this may be the main glimpse they get into how the gospel is working around the world. That is a special opportunity.</p>
+      <p>I have been fundraising for 4 weeks now since returning from Zambia. I started in Charleston, spent a week in Virginia, and just wrapped up an amazing weekend in Boston. I have had 37 powerful meetings with potential donors, and each one has been impactful in its own way. Something I quickly saw in this process was that I am not fundraising for the ultimate purpose of finances. As much as the resources are a necessary part of the work, I believe God is so much more concerned with relationships. This is what fundraising has been about. It is a window into the work, and a doorway to an impactful relationship.</p>
+      <img src="images/newsletters/post-10/post-10-2.webp" class="post-photo" alt="Jack on the Boston waterfront" />
+      <p class="post-photo-caption">Boston, MA &mdash; September 2026</p>
+
+      <h3 class="post-section-title">A Testimony Resurfaced</h3>
+      <p>One conversation stuck with me because it brought a powerful story back to the surface. On my first night in Boston, a good friend from college had me over for dinner. As we caught up on the summer, he asked, &ldquo;What&rsquo;s one way you saw Zambia change from your first trip to this last one?&rdquo;</p>
+      <p>I hadn&rsquo;t thought about it before. I sat in silence for a few moments comparing the two trips. The relationships with the locals, the ministry sites, the encounters. Then it hit me. I had the perfect answer.</p>
+
+      <p><em>Two summers ago</em></p>
+      <p>In July 2024, one day marked my life. I&rsquo;ve shared this story with my church, my family, and my friends, probably a hundred times. It was the day I watched the gospel transform a woman in a Zambian jail cell, and I decided there was nothing more important I could ever give my life to. For those who haven&rsquo;t heard it, here&rsquo;s the story.</p>
+      <p>Each day, our ministry partners would lead us into their communities for outreach, it looked different every day and we never knew what to expect. One particular day we were led to a small concrete jail with a few armed guards standing out front. I remember the guards standing motionless with an angry look on their face. The combination of their AK-47&rsquo;s and scowling faces were enough to create a tense environment. They walked us inside where it was dark, smelly, and none of the guards spoke a word to us. They just waved us into our respective cells and locked the doors.</p>
+      <p>A few of us went into the women&rsquo;s cell and a few into the men&rsquo;s cell. These were ten by ten concrete rooms with a tiny slit of a window at the top. There were no lights, and trash and feces covered the floor. It was dark and lifeless, and so were the three women sitting in front of me, slumped over and staring at the ground.</p>
+      <p>We gave them food, sat down with them, and started to talk. All three had been abused by their husbands and were there because they had retaliated. Anger and bitterness poured out of them.</p>
+      <p>So we shared about the forgiveness of Christ on the cross. Jesus looked at the men who whipped him, spat on him, mocked him, and nailed him to the cross, and he prayed, &ldquo;Father, forgive them, for they know not what they do.&rdquo;</p>
+      <p>As we shared this grace, one of the women named Shannon began to weep. After gathering herself, she pointed at the wall where she had written &ldquo;Shannon was here and I will take revenge on the man who beat me&rdquo;. She explained that she had planned to kill this man when she left, but she was realizing that she needed to forgive him.</p>
+      <p>We prayed with all three women as they walked through forgiveness with tears in their eyes, and the grace of God flooded that cell. After an hour and a half, Shannon told us she felt more free in that jail cell than she had ever felt in her life.</p>
+      <p>As I walked out, I heard praise erupting from the men&rsquo;s cell. I looked over and saw men on their knees and others with their hands raised, worshipping God. I had never experienced anything like it. That day marked me, and I still think about it often.</p>
+
+      <p><em>This Summer</em></p>
+      <p>This past summer, almost exactly two years later, I got to go back to that same jail. The change was dramatic.</p>
+      <p>As we approached, the chief of the jail walked out to meet us, unarmed and beaming with a smile. He shook each of our hands and told us how the prison had been touched by the gospel, and how he had personally come to faith there. He kept repeating one phrase: &ldquo;We need the word of God!&rdquo; He finished by thanking us for coming and offering to help with anything we needed.</p>
+      <p>Inside, the guards smiled and greeted us. The whole place felt lighter. This time, instead of the guards locking us in the cell, they stood in the doorway with a notepad, writing down what we shared. One guard even spoke up and confessed he was struggling with anger, so I stepped outside to talk and pray with him.</p>
+      <p>The staff told us the inmate population had dropped significantly over the years. Many repeat offenders who used to cycle back in weren&rsquo;t returning, likely in part because of the ministry happening there.</p>
+      <p>My team in 2024 was one of the early ministry groups to step into that jail. We were a small part of what God kept doing there for two years through our faithful local partners. Seeing it firsthand was a tangible testament to the gospel&rsquo;s power to bring lasting transformation over time.</p>
+
+      <h3 class="post-section-title">Back on the Trail</h3>
+      <p>After Boston, I flew down to Charleston to meet our new FHDS students and head out on a three-day backpacking trip with the guys in TN. We have sixteen students this year, ten girls and six guys, and every one of them has committed the next year of their lives to growing as disciples of Jesus and being sent out.</p>
+      <p>This backpacking trip was a foundational piece of our school last year. Take away the distractions, hand a bunch of guys a heavy pack, some MRE&rsquo;s, and a long trail, and the conversations get real fast.</p>
+      <p>We started at 4:30AM with some prayer followed by a pitch black hike to the summit of Roan Mountain. As the sun came up, we sat on the ridge, drank coffee, and the students began sharing about why each of them are here and what they are expecting for this next year.</p>
+      <img src="images/newsletters/post-10/post-10-3.webp" class="post-photo" alt="The group at sunrise on Roan Mountain" />
+      <p class="post-photo-caption">Roan Mountain, TN &mdash; September 2026</p>
+      <p>What followed was three days, sixteen miles, 4 MREs, and a ton of prayer, laughter, and fellowship.</p>
+      <p>Longtime supporters may remember that on last year&rsquo;s trip, we had to carry out a buddy who blew out his knee. It was intense, and it really knit our group together. This year, one guy rolled his ankle and the others split up his pack for a mile, but it wasn&rsquo;t nearly as grueling.</p>
+      <p>Still it was special to walk the same trail, retrace the same steps, and remember everything from the year before. I spent a lot of the quiet stretches thinking back over the past year and all that has happened since I was last there. It felt like a bit of a full-circle moment.</p>
+
+      <h3 class="post-section-title">Twelve Stones</h3>
+      <p>Sitting here writing this, I can see the Lord&rsquo;s hand in this past month bringing me back to remembrance again and again: at a dinner table in Boston, in the stories I&rsquo;ve shared with supporters, and on a ridge at sunrise.</p>
+      <p>We are so quick to forget, or maybe even miss altogether what God has done. In Joshua 4, as God leads the Israelites into the Promised Land, He parts the Jordan River and tells them to take twelve stones from the riverbed as a memorial. Those stones would remind them that He had delivered them from slavery, carried them through the wilderness, protected them, and provided for them.</p>
+      <p>It is easy for us to read that and think, &ldquo;How could they forget? He parted the Red Sea!&rdquo;. Yet so often we forget as well. I know I do.</p>
+      <p>As I step into something new with highs and lows I couldn&rsquo;t predict, He keeps bringing me back to the moments that led me here. Every one of those testimonies reminds me of His faithfulness and emboldens me to move forward.</p>
+      <p>Thank you for being a part of this journey.</p>
+      <p>If you&rsquo;d like to be part of stories like this one, I&rsquo;m currently raising support for the next two years. You can give <a href="https://www.freedomhouseinternational.org/jack-clark" target="_blank" rel="noopener">here</a>. I&rsquo;d love to have you in this with me.</p>
+
+      <h3 class="post-section-title">Prayer Requests</h3>
+      <ul class="post-body-list">
+        <li>Deep relationships to be formed with supporters in this fundraising season</li>
+        <li>Wisdom and direction as we begin to plan summer trips in the 10/40 window</li>
+        <li>That our new students would grow in their knowledge of God and would love and serve one another faithfully</li>
+      </ul>
+    `
+  },
+  {
     id: "post-9",
     date: "August 2026",
     dateISO: "2026-08-22",
