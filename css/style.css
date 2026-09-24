@@ -1347,8 +1347,8 @@ body {
   stroke: var(--gold);
   stroke-width: 9;
   stroke-linecap: round;
-  /* r=56, circumference≈351.86; 21.4% ($1,350 of $6,300)≈75.40 */
-  stroke-dasharray: 75.40 276.46;
+  /* r=56, circumference≈351.86; 24.8% ($1,560 of $6,300)≈87.13 */
+  stroke-dasharray: 87.13 264.73;
 }
 .funding-ring-center {
   position: absolute; inset: 0;
