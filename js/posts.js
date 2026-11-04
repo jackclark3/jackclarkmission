@@ -10,6 +10,64 @@
 
 const posts = [
   {
+    id: "post-11",
+    date: "November 2026",
+    dateISO: "2026-11-04",
+    title: "October Update: Headed to Lebanon",
+    excerpt: "Lately my life fits in a suitcase. I&rsquo;m not sure if it&rsquo;s spiritual growth or poor packing, but the more I move, the less I seem to own.",
+    content: `
+      <h2 class="post-headline">October Update: Headed to Lebanon</h2>
+      <p class="post-quick-links"><a href="https://www.instagram.com/freedomhouseintl/" target="_blank" rel="noopener">More from the conference on Instagram &rarr;</a></p>
+      <img src="images/newsletters/post-11/post-11-1.webp" class="post-photo-hero" alt="Overlooking a town in Lebanon at sunset with mountains behind" />
+      <p class="post-photo-caption">Lebanon</p>
+
+      <p class="post-dateline">Charleston, SC &mdash; November 4th, 2026</p>
+      <p><strong>Lately my life fits in a suitcase.</strong> I&rsquo;m not sure if it&rsquo;s spiritual growth or poor packing, but the more I move, the less I seem to own.</p>
+      <p>I will admit, there is an excitement to being on the go. But as much as I&rsquo;ve enjoyed this nomadic season, there is also a quiet gift in waking up somewhere familiar, knowing where the coffee mugs are, and seeing the same faces week after week.</p>
+      <p>Last week I moved down to Charleston, home to our FHI headquarters. This will be my home base for the foreseeable future, and I am looking forward to planting some sort of roots. And yet, in true fashion, I&rsquo;m learning to settle in and pack a bag in the same month, because tomorrow I will be heading to Lebanon.</p>
+      <p>Here&rsquo;s a look at what&rsquo;s happening and what&rsquo;s ahead:</p>
+
+      <h3 class="post-section-title">Progress</h3>
+      <p><strong>The work is finally beginning!</strong> As many of you know, I planned to finish fundraising by January and begin working in the new year. But thanks to the generosity of many of you reading this, my timeline has moved up.</p>
+      <a href="index.html#giving"><img src="images/newsletters/post-11/post-11-2.webp" class="post-photo" alt="Monthly giving levels chart showing 65.7% funded" /></a>
+      <p class="post-photo-caption">Funding progress &mdash; November 2026</p>
+      <p>I am currently 65% to my monthly goal, and I have received enough one-time donations to cover my international missions budget through the year.</p>
+      <p>As I was witnessing the Lord&rsquo;s provision, I started to ask, &ldquo;why not start now?&rdquo;. So I&rsquo;ve officially begun working full-time here in Charleston while I finish raising the rest of my support, and the first step is to pay a visit to our team in the Middle East.</p>
+
+      <h3 class="post-section-title">Middle East Initiative</h3>
+      <p>Stewarding our ministry in the Middle East is a key part of my role. Two years ago God began to call us to the region. A few doors opened and the burden for the <a href="https://joshuaproject.net/resources/articles/10_40_window" target="_blank" rel="noopener">10/40 window</a> became clear.</p>
+      <p>One of those doors was a partnership with a ministry in Lebanon serving refugee families. They found themselves in the middle of a town flooded with people fleeing conflict nearby, and they responded with education, meals, winter supplies, and discipleship. Over the last two years that partnership has grown strong, and we&rsquo;ve been able to send several teams and resources to support their work.</p>
+      <img src="images/newsletters/post-11/post-11-3.webp" class="post-photo" alt="A mosque minaret above a Lebanese town at dusk" />
+      <p class="post-photo-caption">Lebanon</p>
+      <p>There&rsquo;s just one problem: I have never actually met them.</p>
+      <p>On November 5th, I am heading to Lebanon for eleven days. The focus is simply to spend time with our team on the ground, hear their stories, and learn about the work God has entrusted to them. We hope to keep working closely with them as we grow in the region, and I can&rsquo;t wait to finally meet them face to face.</p>
+
+      <h3 class="post-section-title">Stateside</h3>
+      <p><strong>Meanwhile in Charleston</strong>, our discipleship school is in full swing and we just wrapped up our 2026 FHI Conference. I spent my first week catching up with the students, learning our systems, and jumping in wherever an extra set of hands was needed.</p>
+      <img src="images/newsletters/post-11/post-11-4.webp" class="post-photo" alt="People worshipping and praying together at the 2026 FHI Conference" />
+      <p class="post-photo-caption">Charleston, SC &mdash; October 2026</p>
+      <p>Most of our team&rsquo;s energy this month went into our annual conference, which brought together more than 400 people for worship, teaching, and workshops. Some had served on trips with us, some live right here in Charleston, and some simply came because a friend invited them.</p>
+      <p>The theme of this year&rsquo;s conference was the Father&rsquo;s heart, and we had the gift of watching countless families be reconciled over the course of three days. One moment on Saturday night has stayed with me. As we closed the conference in worship, I looked around the room and saw at least four families huddled together in prayer. I knew many of them personally. I knew the wounds, the struggles, and the longing to be brought back together. Now those same students and staff stood with their families in tears, worshipping and praying side by side.</p>
+      <p>Moments later our host, Austin, announced that some people were going to get baptized. The entire auditorium poured out to the front parking lot where we proceeded to baptize 8 people in a fountain.</p>
+      <div class="post-photo-pair">
+        <img src="images/newsletters/post-11/post-11-5.webp" alt="A woman raising her hand in celebration after being baptized in the fountain" />
+        <img src="images/newsletters/post-11/post-11-6.webp" alt="Embracing in the fountain after a baptism" />
+      </div>
+      <p class="post-photo-caption">Charleston, SC &mdash; October 2026</p>
+      <p>It is moments like this that you can&rsquo;t plan for and you can&rsquo;t manufacture. When heaven comes down to earth, there is truly no adequate response but to thank the Lord.</p>
+
+      <h3 class="post-section-title">In Closing</h3>
+      <p>For now, my focus is on our team in Lebanon. I&rsquo;ll send another update around Thanksgiving, once I&rsquo;m back.</p>
+      <p>In the meantime, here is how you can pray:</p>
+      <ul class="post-body-list">
+        <li>Safe travels to and from Lebanon</li>
+        <li>Meaningful time with our team, and that the trip would bear fruit for their ministry</li>
+        <li>Wisdom and direction for our relationships and next steps in the region</li>
+      </ul>
+      <p>Thank you to everyone who has given, prayed, and cheered me on. Your generosity is the reason I get to start this work months ahead of schedule. I don&rsquo;t take that lightly and I am grateful to be doing this with you.</p>
+    `
+  },
+  {
     id: "post-10",
     date: "September 2026",
     dateISO: "2026-09-23",
