@@ -20,7 +20,7 @@ const posts = [
       <img src="images/newsletters/post-12/post-12-hero.webp" class="post-photo-hero" alt="Sunset over rooftops and mountains in Lebanon" />
       <p class="post-photo-caption">Lebanon &mdash; November 2026</p>
 
-      <p class="post-dateline">Charleston, SC &mdash; November 25th, 2026</p>
+      <p class="post-dateline">Leesburg, VA &mdash; November 25th, 2026</p>
       <p>I spent most of November in Lebanon working alongside our ministry partners who run a school for Syrian refugees.</p>
       <p>Life on the ground in a place like this can be hard for us in the West to wrap our minds around. My hope is that the stories below give you a glimpse of both the beauty and the challenges in this part of the world.</p>
 
