@@ -974,6 +974,10 @@ body {
   display: flex; align-items: flex-start; justify-content: space-between; gap: 16px;
   margin-bottom: 12px;
 }
+.post-card-readtime {
+  font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--gold); white-space: nowrap; flex-shrink: 0; margin-top: 7px;
+}
 .post-card-title {
   font-family: var(--serif); font-size: 20px; font-weight: 600;
   color: var(--ink); line-height: 1.3; margin: 0;
@@ -1084,7 +1088,8 @@ body {
 .post-photo {
   width: 100%; display: block; margin: 40px 0 10px; border-radius: 2px;
 }
-.post-photo-caption {
+.post-photo-caption,
+.post-overlay-body .post-photo-caption {
   font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
   color: var(--ink-muted); text-align: center; margin-bottom: 40px;
 }
@@ -1521,6 +1526,15 @@ body {
   transition: color 0.2s, border-color 0.2s;
 }
 .post-quick-links a:hover { color: var(--gold); border-color: var(--gold); }
+
+/* Estimated read time, directly under the post headline */
+.post-overlay-body .post-readtime {
+  font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--gold); text-align: center; margin: 0 0 32px;
+}
+
+/* Older posts with no headline start with a section title: keep it borderless under the read time */
+.post-overlay-body .post-readtime + .post-section-title { margin-top: 0; padding-top: 0; border-top: none; }
 
 /* Dateline at the top of a newsletter body */
 .post-overlay-body .post-dateline {

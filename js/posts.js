@@ -10,6 +10,81 @@
 
 const posts = [
   {
+    id: "post-12",
+    date: "November 2026",
+    dateISO: "2026-11-25",
+    title: "November Update: Back from Lebanon",
+    excerpt: "I spent most of November in Lebanon working alongside our ministry partners who run a school for Syrian refugees.",
+    content: `
+      <h2 class="post-headline">November Update: Back from Lebanon</h2>
+      <img src="images/newsletters/post-12/post-12-hero.webp" class="post-photo-hero" alt="Sunset over rooftops and mountains in Lebanon" />
+      <p class="post-photo-caption">Lebanon &mdash; November 2026</p>
+
+      <p class="post-dateline">Charleston, SC &mdash; November 25th, 2026</p>
+      <p>I spent most of November in Lebanon working alongside our ministry partners who run a school for Syrian refugees.</p>
+      <p>Life on the ground in a place like this can be hard for us in the West to wrap our minds around. My hope is that the stories below give you a glimpse of both the beauty and the challenges in this part of the world.</p>
+
+      <h3 class="post-section-title">A Culture Shaped by Hardship</h3>
+      <p>One of the first things you realize upon stepping into Lebanon is the lighthearted and rowdy culture. They love to have fun. They love to joke around. They love to all talk at the same time.</p>
+      <p>It&rsquo;s as if every moment is their last chance to have fun. Maybe not what you would expect from a country listed as a level 4 do not travel, right?</p>
+      <img src="images/newsletters/post-12/post-12-1.webp" class="post-photo" alt="Jack, Gabe, and ministry partners at a restaurant table in Beirut" />
+      <p class="post-photo-caption">Our first meal in Beirut: Gabe (FHI) is across from me, with our ministry partners on the right.</p>
+      <p>My first night in Lebanon was spent sitting in a room with our ministry partners laughing and yelling. Most of it was in Arabic but I was jet lagged enough that I felt like I knew what was going on. It was a blast. We stayed up until 2 a.m. drinking coffee and getting to know each other.</p>
+      <p>I went to bed asking the question: How could a country shaped by war and trauma be so carefree?</p>
+      <p>Nearly everyone I met has lost someone or lived through abuse or trauma. And so have their parents, and their parents&rsquo; parents.</p>
+      <p>Generations of war and pain have shaped the culture.</p>
+      <p>It produces a deep kind of character. People learn to live for the day at hand. To enjoy what they have and to find humor even in difficult situations. But in the process, many also learn to sweep their wounds under the rug. This is where the gospel offers a unique hope.</p>
+
+      <h3 class="post-section-title">The Purity of Ministry</h3>
+      <p>The religious environment in Lebanon is complicated.</p>
+      <p>The government operates under a confessionalist power sharing model, which means every religious group gets representation in office. The president must be a Christian, the prime minister must be a Sunni Muslim, and the speaker of parliament must be a Shia Muslim.</p>
+      <p>This is a beautiful thing because it makes Lebanon one of the few countries in the Middle East with some religious freedom. But it is not this simple at a societal level.</p>
+      <p>For those born into Christian families, faith often comes with relative safety. But for a Muslim who chooses Christ, it can come with a death sentence.</p>
+      <img src="images/newsletters/post-12/post-12-2.webp" class="post-photo" alt="A student teaching Jack to make a bracelet at an outdoor table" />
+      <p class="post-photo-caption">One of the students teaching me to make a bracelet during ministry one day</p>
+      <p>One of the most impactful testimonies for me came from a woman we will call Mary.</p>
+      <p>Mary grew up Muslim. Through a series of connections she came into contact with our ministry partners and found herself around them more often.</p>
+      <p>She was present day after day, often minding her own business. But she slowly began to notice things. She saw that the staff treated each other and loved one another in a way that was foreign. The way they spoke to one another. The way they served one another. The way they served the students.</p>
+      <p>She became curious, and she started to open up to them. She started to ask questions. Why were they like this?</p>
+      <p>Eventually she decided she wanted to know this God at the source of the love she saw, so she asked one of the missionaries staying nearby how.</p>
+      <p>The problem for her was that she could not openly follow Jesus. She couldn&rsquo;t take off her hijab. She couldn&rsquo;t bring a Bible into the house. She couldn&rsquo;t go to church. There was no doubt, she would be killed by her family.</p>
+      <p>This missionary explained to her that it begins in her heart. He told her to pray and surrender to Jesus, and let Him show her the way.</p>
+      <p>This was over a year ago, and since then she has been living her faith in secret. She worships quietly. She prays with other believers when she can. She hides scripture in her house. She faithfully prays for her husband. All the while she must hide, lest she lose her family and her life.</p>
+      <p>She shared this with me in tears, but also in boldness. I could see the faith in this woman, and it made mine feel small. This secret place in her heart that she had been living from. Her desperation for Jesus, and the revelation of His worth that made her willing to risk everything.</p>
+      <p>This testimony is incredible, but it is not the only one like it. I heard testimony after testimony of students from Muslim families giving their lives to Jesus and risking everything. And walls being torn down through persistent love.</p>
+      <p>It is as if Jesus knew what He was talking about when He said, &ldquo;By this all people will know that you are my disciples, if you have love for one another.&rdquo; (John 13:35).</p>
+      <p>There is a purity to this ministry that was challenging and beautiful. There are no altar calls or fleeting decisions to pray a prayer that is forgotten about the next day. There is no faking it.</p>
+      <p>There is only the fruit of Jesus&rsquo; love that testifies of the truth.</p>
+
+      <h3 class="post-section-title">Ministry Partners</h3>
+      <p>I&rsquo;ve often wrestled with what the role of short-term missionaries is. I have seen God move mightily on short-term trips, but it is easy to have the mindset that nothing impactful can happen in such a short time.</p>
+      <p>Two of the biggest strengths I see in short-term teams are the way they open doors to new relationships and perspectives, and the encouragement they bring to the local believers who serve year-round. We saw both during our time there.</p>
+      <img src="images/newsletters/post-12/post-12-3.webp" class="post-photo" alt="Jack teaching students seated outside the school building" />
+      <p class="post-photo-caption">Teaching during a weekly arts class</p>
+      <p>Our ministry partners run a TON of programs. They teach dozens of STEM and arts classes, Bible classes, English classes, one-on-one discipleship, house visits, and a massive Christmas project where they buy up to 2,000 gifts to give to underprivileged children. And they only have three full-time staff.</p>
+      <p>That is a big load to carry, and burnout creeps up fast. Gabe and I sought to be intentional about serving the staff and trying our best to slow down and be a refreshment to them. We led prayer and worship time with them, tried to take some of the teaching load, and were intentional about spending quality time with them over coffee and giving them a space to talk.</p>
+      <img src="images/newsletters/post-12/post-12-4.webp" class="post-photo" alt="The team gathered in a stone-arched passage at night" />
+      <p class="post-photo-caption">Quality time with our team</p>
+      <p>We also had the gift of hosting a youth night with a local church. It&rsquo;s a young church that&rsquo;s been growing organically, and I&rsquo;m really glad we got to connect with them. I can see God doing more through this relationship in the years ahead.</p>
+      <img src="images/newsletters/post-12/post-12-5.webp" class="post-photo" alt="Youth group gathered in front of a wooden cross in a church" />
+      <p class="post-photo-caption">Local church youth night</p>
+
+      <h3 class="post-section-title">In Closing</h3>
+      <p>This trip was deeply marking for me in many ways.</p>
+      <p>I see such a large wall of division between our western society and this region of the world. Walls of fear and judgement and hate. I see a region of the world, once the birthplace of Christianity, now characterized by bondage, war, pain, and the ruling of false and destructive ideologies.</p>
+      <p>But I also see people. People with pure hearts, longing for peace, longing to know God. People of character. I see a church that has been purified and refined, carrying things that our church in the West needs.</p>
+      <p>And I see God moving mightily there.</p>
+      <p>This is only the beginning of my time there, I know, and Lord willing I&rsquo;ll be back in May, this time for longer.</p>
+      <p>I have so much to learn and I have no idea what the future holds for Freedom House in this region of the world. But it is so obvious that God is at the helm, and that is an exciting place to be.</p>
+      <p>Prayer Requests:</p>
+      <ul class="post-body-list">
+        <li>Pray for our ministry partners, that the Lord would give them rest and bring laborers, that He would strengthen them and unify them</li>
+        <li>Pray for those that have given their lives to Jesus, that they would be strengthened and protected</li>
+        <li>Pray for the students in the school that don&rsquo;t know Jesus, they would be impacted by the love of Christ and that they would be saved</li>
+      </ul>
+    `
+  },
+  {
     id: "post-11",
     date: "November 2026",
     dateISO: "2026-11-04",
@@ -487,6 +562,18 @@ const posts = [
 // ============================================
 // RENDER POSTS (don't edit below this line)
 // ============================================
+// Estimated read time ("6 min read") from a post's text, at ~230 words/min.
+// Photo captions don't count. Returns '' for video-only posts with little text.
+function readTime(post) {
+  const text = post.content
+    .replace(/<p class="post-photo-caption">[\s\S]*?<\/p>/g, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&[a-z]+;/g, '');
+  const words = text.split(/\s+/).filter(Boolean).length;
+  if (words < 150) return '';
+  return Math.max(1, Math.round(words / 230)) + ' min read';
+}
+
 function renderPosts() {
   const grid = document.getElementById('updatesGrid');
   if (!grid) return;
@@ -509,7 +596,10 @@ function renderBlogList() {
   list.innerHTML = posts.map(post => `
     <div class="post-card reveal" id="${post.id}" onclick="openPost('${post.id}')">
       <div class="post-card-date">${post.date}</div>
-      <h3 class="post-card-title">${post.title}</h3>
+      <div class="post-card-title-row">
+        <h3 class="post-card-title">${post.title}</h3>
+        ${readTime(post) ? `<span class="post-card-readtime">${readTime(post)}</span>` : ''}
+      </div>
       <p class="post-card-excerpt">${post.excerpt}</p>
       <span class="post-card-readmore">Read full update →</span>
     </div>

@@ -119,6 +119,15 @@
       document.getElementById('postOverlayDate').textContent = post.date;
       document.getElementById('postOverlayTitle').textContent = post.title;
       document.getElementById('postOverlayBody').innerHTML = post.content;
+      var minutes = readTime(post);
+      if (minutes) {
+        var body = document.getElementById('postOverlayBody');
+        var label = document.createElement('p');
+        label.className = 'post-readtime';
+        label.textContent = minutes;
+        var headline = body.querySelector('.post-headline');
+        if (headline) headline.after(label); else body.prepend(label);
+      }
       var overlay = document.getElementById('postOverlay');
       overlay.classList.add('open');
       overlay.scrollTop = 0;
